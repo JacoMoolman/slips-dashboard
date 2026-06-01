@@ -35,14 +35,45 @@ html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
 [data-testid="stSidebar"] { background: #13162a; border-right: 1px solid #1e2340; }
 [data-testid="stSidebar"] * { color: #c8d0e7 !important; }
 [data-testid="stHeader"] { background: transparent; }
+[data-testid="stAppViewContainer"] .block-container {
+    max-width: 100%;
+    padding-left: clamp(0.75rem, 3vw, 3rem);
+    padding-right: clamp(0.75rem, 3vw, 3rem);
+}
+.block-container { overflow-x: hidden; }
 
-.kpi-grid { display: flex; gap: 16px; margin-bottom: 24px; }
+.dashboard-title {
+    color: #f4f6ff;
+    font-size: clamp(2rem, 7vw, 3.2rem);
+    font-weight: 700;
+    line-height: 1.05;
+    margin: 0 0 1.1rem;
+    overflow-wrap: anywhere;
+}
+.dashboard-title span {
+    display: block;
+    color: #c8d0e7;
+    font-size: 0.78em;
+    margin-top: 0.25rem;
+}
+h1 {
+    font-size: clamp(2rem, 7vw, 3.2rem) !important;
+    line-height: 1.08 !important;
+    overflow-wrap: anywhere;
+}
+
+.kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
+    gap: 12px;
+    margin-bottom: 24px;
+}
 .kpi-card {
-    flex: 1;
+    min-width: 0;
     background: linear-gradient(135deg, #1a1d35 0%, #1e2340 100%);
     border: 1px solid #2a2f55;
-    border-radius: 14px;
-    padding: 20px 22px;
+    border-radius: 12px;
+    padding: 16px 14px;
     text-align: center;
     animation: fadeUp 0.5s ease both;
 }
@@ -57,8 +88,20 @@ html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
     to   { opacity: 1; transform: translateY(0); }
 }
 
-.kpi-value { font-size: 1.8rem; font-weight: 700; color: #e8ecff; line-height: 1.1; margin-bottom: 4px; }
-.kpi-label { font-size: 0.78rem; color: #7a85aa; text-transform: uppercase; letter-spacing: 0.06em; }
+.kpi-value {
+    font-size: clamp(1.35rem, 6vw, 1.8rem);
+    font-weight: 700;
+    color: #e8ecff;
+    line-height: 1.1;
+    margin-bottom: 4px;
+    overflow-wrap: anywhere;
+}
+.kpi-label {
+    font-size: clamp(0.64rem, 2.6vw, 0.78rem);
+    color: #7a85aa;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
 
 .section-title {
     font-size: 0.85rem;
@@ -76,6 +119,37 @@ html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
     border: 1px solid #1e2340;
     border-radius: 14px;
     padding: 16px;
+}
+
+@media (max-width: 640px) {
+    [data-testid="stAppViewContainer"] .block-container {
+        padding-top: 1rem;
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+    .dashboard-title {
+        font-size: 2rem;
+        line-height: 1.08;
+        margin-bottom: 0.85rem;
+    }
+    h1 { font-size: 2rem !important; }
+    .kpi-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+    }
+    .kpi-card {
+        min-height: 116px;
+        padding: 14px 10px;
+    }
+    .section-title {
+        margin-top: 18px;
+        font-size: 0.75rem;
+        letter-spacing: 0.05em;
+    }
+}
+
+@media (max-width: 380px) {
+    .kpi-grid { grid-template-columns: 1fr; }
 }
 </style>
 """, unsafe_allow_html=True)
@@ -106,6 +180,11 @@ PLOTLY_LAYOUT = dict(
     plot_bgcolor="rgba(0,0,0,0)",
     font=dict(color="#c8d0e7", family="Inter"),
     margin=dict(t=20, b=20, l=10, r=10),
+    hoverlabel=dict(
+        bgcolor="#ffffff",
+        bordercolor="#111827",
+        font=dict(color="#111827", size=13),
+    ),
 )
 
 
@@ -215,11 +294,29 @@ def chart_category_donut(df_i):
         values=agg["price"],
         hole=0.55,
         marker=dict(colors=colors, line=dict(color="#0d0f1a", width=2)),
-        textinfo="label+percent",
+        textinfo="percent",
+        textposition="inside",
+        insidetextorientation="radial",
         hovertemplate="<b>%{label}</b><br>R %{value:,.2f}<br>%{percent}<extra></extra>",
         textfont=dict(size=11),
     ))
-    fig.update_layout(**PLOTLY_LAYOUT, height=340, showlegend=False)
+    fig.update_layout(
+        **PLOTLY_LAYOUT,
+        height=330,
+        showlegend=True,
+        margin=dict(t=8, b=80, l=4, r=4),
+        legend=dict(
+            orientation="h",
+            yanchor="top",
+            y=-0.08,
+            xanchor="left",
+            x=0,
+            bgcolor="rgba(0,0,0,0)",
+            font=dict(size=10),
+        ),
+        uniformtext_minsize=10,
+        uniformtext_mode="hide",
+    )
     return fig
 
 
@@ -236,9 +333,10 @@ def chart_store_bar(df_s):
     ))
     fig.update_layout(
         **PLOTLY_LAYOUT,
-        height=340,
+        height=max(320, 34 * len(agg) + 130),
+        margin=dict(t=10, b=42, l=8, r=54),
         xaxis=dict(showgrid=True, gridcolor="#1e2340", tickformat=",.0f", title="Amount (R)", color="#7a85aa"),
-        yaxis=dict(showgrid=False, color="#c8d0e7"),
+        yaxis=dict(showgrid=False, color="#c8d0e7", automargin=True),
     )
     return fig
 
@@ -299,11 +397,6 @@ def chart_stacked_store_cat(df_i):
             bgcolor="rgba(0,0,0,0)",
             bordercolor="#1e2340",
             font=dict(size=10),
-        ),
-        hoverlabel=dict(
-            bgcolor="#ffffff",
-            bordercolor="#111827",
-            font=dict(color="#111827", size=13),
         ),
     )
     return fig
