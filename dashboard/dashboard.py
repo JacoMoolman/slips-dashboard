@@ -199,9 +199,9 @@ def get_dashboard_password():
     if env_password:
         return env_password
     try:
-        return st.secrets.get("DASHBOARD_PASSWORD")
+        return st.secrets.get("DASHBOARD_PASSWORD", "1068")
     except Exception:
-        return None
+        return "1068"
 
 
 def require_password():
@@ -211,10 +211,6 @@ def require_password():
     expected_password = get_dashboard_password()
     st.markdown("# JM² Shopping Dashboard")
     st.caption("Enter the dashboard password to continue.")
-
-    if not expected_password:
-        st.error("Dashboard password is not configured.")
-        st.stop()
 
     with st.form("password_gate"):
         entered_password = st.text_input("Password", type="password")
