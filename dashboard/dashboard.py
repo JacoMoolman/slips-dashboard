@@ -188,6 +188,12 @@ PLOTLY_LAYOUT = dict(
 )
 
 
+def plotly_layout(**overrides):
+    layout = dict(PLOTLY_LAYOUT)
+    layout.update(overrides)
+    return layout
+
+
 def get_dashboard_password():
     env_password = os.environ.get("DASHBOARD_PASSWORD")
     if env_password:
@@ -300,8 +306,7 @@ def chart_category_donut(df_i):
         hovertemplate="<b>%{label}</b><br>R %{value:,.2f}<br>%{percent}<extra></extra>",
         textfont=dict(size=11),
     ))
-    fig.update_layout(
-        **PLOTLY_LAYOUT,
+    fig.update_layout(**plotly_layout(
         height=330,
         showlegend=True,
         margin=dict(t=8, b=80, l=4, r=4),
@@ -316,7 +321,7 @@ def chart_category_donut(df_i):
         ),
         uniformtext_minsize=10,
         uniformtext_mode="hide",
-    )
+    ))
     return fig
 
 
@@ -331,13 +336,12 @@ def chart_store_bar(df_s):
         textfont=dict(color="#c8d0e7"),
         hovertemplate="<b>%{y}</b><br>R %{x:,.2f}<extra></extra>",
     ))
-    fig.update_layout(
-        **PLOTLY_LAYOUT,
+    fig.update_layout(**plotly_layout(
         height=max(320, 34 * len(agg) + 130),
         margin=dict(t=10, b=42, l=8, r=54),
         xaxis=dict(showgrid=True, gridcolor="#1e2340", tickformat=",.0f", title="Amount (R)", color="#7a85aa"),
         yaxis=dict(showgrid=False, color="#c8d0e7", automargin=True),
-    )
+    ))
     return fig
 
 
@@ -358,12 +362,11 @@ def chart_monthly_trend(df_s_all, sel_stores):
         fillcolor="rgba(108,138,255,0.08)",
         hovertemplate="<b>%{x}</b><br>R %{y:,.2f}<extra></extra>",
     ))
-    fig.update_layout(
-        **PLOTLY_LAYOUT,
+    fig.update_layout(**plotly_layout(
         height=260,
         xaxis=dict(showgrid=True, gridcolor="#1e2340", color="#7a85aa"),
         yaxis=dict(showgrid=True, gridcolor="#1e2340", tickformat=",.0f", title="R", color="#7a85aa"),
-    )
+    ))
     return fig
 
 
@@ -381,8 +384,7 @@ def chart_stacked_store_cat(df_i):
                 marker_color=CATEGORY_COLORS[cat],
                 hovertemplate=f"<b>{cat}</b><br>%{{customdata}}<br>R %{{y:,.2f}}<extra></extra>",
             ))
-    fig.update_layout(
-        **PLOTLY_LAYOUT,
+    fig.update_layout(**plotly_layout(
         barmode="stack",
         height=max(420, 36 * len(pivot) + 280),
         margin=dict(t=28, b=120, l=64, r=28),
@@ -398,7 +400,7 @@ def chart_stacked_store_cat(df_i):
             bordercolor="#1e2340",
             font=dict(size=10),
         ),
-    )
+    ))
     return fig
 
 
