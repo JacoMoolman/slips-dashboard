@@ -19,6 +19,16 @@ Main file path: dashboard/dashboard.py
 
 The generated app URL can be any available `*.streamlit.app` name.
 
+## Streamlit Secrets
+
+The dashboard is password-gated. In Streamlit Cloud, open the app settings and add this secret:
+
+```toml
+DASHBOARD_PASSWORD = "<set this in Streamlit Cloud>"
+```
+
+The public GitHub repo should not contain `.streamlit/secrets.toml`.
+
 ## What Was Uploaded
 
 Only the sanitized dashboard deploy files were pushed:
@@ -66,4 +76,3 @@ C:\Program Files\GitHub CLI\gh.exe
 ```
 
 The authenticated GitHub user was `JacoMoolman`.
-
