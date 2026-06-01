@@ -17,7 +17,7 @@ DATA_DIR = Path(__file__).parent / "data"
 
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="Spending Dashboard",
+    page_title="JM² Shopping Dashboard",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -143,7 +143,7 @@ def load_all_data():
 # ── Sidebar ───────────────────────────────────────────────────────────────────
 def build_sidebar(df_s, df_i):
     with st.sidebar:
-        st.markdown("## Spending Dashboard")
+        st.markdown("## JM² Shopping Dashboard")
         st.markdown("---")
 
         months = sorted(df_s["month"].unique(), reverse=True)
@@ -234,22 +234,39 @@ def chart_monthly_trend(df_s_all, sel_stores):
 def chart_stacked_store_cat(df_i):
     pivot = (df_i.pivot_table(values="price", index="store", columns="category", aggfunc="sum", fill_value=0)
              .reset_index())
+    pivot["store_label"] = pivot["store"].str.replace(" & ", " &<br>", regex=False)
     fig = go.Figure()
     cats_present = [c for c in CATEGORY_COLORS if c in df_i["category"].unique()]
     for cat in cats_present:
         if cat in pivot.columns:
             fig.add_trace(go.Bar(
-                name=cat, x=pivot["store"], y=pivot[cat],
+                name=cat, x=pivot["store_label"], y=pivot[cat],
+                customdata=pivot["store"],
                 marker_color=CATEGORY_COLORS[cat],
-                hovertemplate=f"<b>{cat}</b><br>%{{x}}<br>R %{{y:,.2f}}<extra></extra>",
+                hovertemplate=f"<b>{cat}</b><br>%{{customdata}}<br>R %{{y:,.2f}}<extra></extra>",
             ))
     fig.update_layout(
         **PLOTLY_LAYOUT,
         barmode="stack",
-        height=300,
-        xaxis=dict(showgrid=False, color="#c8d0e7"),
+        height=max(420, 36 * len(pivot) + 280),
+        margin=dict(t=28, b=120, l=64, r=28),
+        xaxis=dict(showgrid=False, color="#c8d0e7", tickfont=dict(size=11), automargin=True),
         yaxis=dict(showgrid=True, gridcolor="#1e2340", tickformat=",.0f", title="R", color="#7a85aa"),
-        legend=dict(bgcolor="rgba(0,0,0,0)", bordercolor="#1e2340", font=dict(size=10)),
+        legend=dict(
+            orientation="h",
+            yanchor="bottom",
+            y=1.02,
+            xanchor="left",
+            x=0,
+            bgcolor="rgba(0,0,0,0)",
+            bordercolor="#1e2340",
+            font=dict(size=10),
+        ),
+        hoverlabel=dict(
+            bgcolor="#ffffff",
+            bordercolor="#111827",
+            font=dict(color="#111827", size=13),
+        ),
     )
     return fig
 
@@ -335,7 +352,7 @@ def main():
 
     # ── Title ──────────────────────────────────────────────────────────────────
     month_label = ", ".join(sel_months) if sel_months else "All months"
-    st.markdown(f"# Spending — {month_label}")
+    st.markdown(f"# JM² Shopping Dashboard — {month_label}")
 
     # ── KPI cards ─────────────────────────────────────────────────────────────
     total_spend  = df_s["total"].sum()
