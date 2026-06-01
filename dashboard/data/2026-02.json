@@ -1,0 +1,375 @@
+{
+  "month": "2026-02",
+  "generated_at": "2026-03-05T00:00:00",
+  "slips": [
+    {
+      "source_file": "WhatsApp Image 2026-03-02 at 09.21.19 (2).md",
+      "store": "Woolworths",
+      "date": "2026-02-01",
+      "total": 242.94,
+      "discounts": 0.00,
+      "items": [
+        {"description": "1L SF Tonic", "price": 20.99, "category": "Beverages"},
+        {"description": "1L SF Tonic", "price": 20.99, "category": "Beverages"},
+        {"description": "Loose Pineapple", "price": 28.99, "category": "Fruit"},
+        {"description": "Smkd Gypsy Ham 250g", "price": 89.99, "category": "Meat & Deli"},
+        {"description": "Bananas Large", "price": 42.99, "category": "Fruit"},
+        {"description": "Sliced Portabellini", "price": 38.99, "category": "Vegetables"}
+      ]
+    },
+    {
+      "source_file": "WhatsApp Image 2026-03-02 at 09.21.20 (1).md",
+      "store": "Woolworths",
+      "date": "2026-02-01",
+      "total": 121.98,
+      "discounts": 0.00,
+      "items": [
+        {"description": "Low Fat Milk 2L", "price": 36.99, "category": "Dairy & Eggs"},
+        {"description": "Moroccan Fillet 250g", "price": 84.99, "category": "Meat & Deli"}
+      ]
+    },
+    {
+      "source_file": "WhatsApp Image 2026-03-02 at 09.21.20.md",
+      "store": "Pick n Pay",
+      "date": "2026-02-01",
+      "total": 557.97,
+      "discounts": 44.00,
+      "items": [
+        {"description": "Pineapples Queen", "price": 24.99, "category": "Fruit"},
+        {"description": "EcoFresh Low Fat Milk x2", "price": 65.98, "category": "Dairy & Eggs"},
+        {"description": "All Bran Flakes 750g", "price": 64.99, "category": "Pantry & Dry Goods"},
+        {"description": "PnP 2Ply Tissues 180ea", "price": 33.99, "category": "Household"},
+        {"description": "Round Bin Liner Small", "price": 34.99, "category": "Household"},
+        {"description": "White Cheddar pk", "price": 35.09, "category": "Dairy & Eggs"},
+        {"description": "Petroleum Jelly Baby Soft 50ml", "price": 15.99, "category": "Health & Beauty"},
+        {"description": "Ear Buds 100ea", "price": 16.99, "category": "Health & Beauty"},
+        {"description": "Orange Juice 1L", "price": 39.99, "category": "Beverages"},
+        {"description": "L&CC Crumbed Hake Fillet 500g+100g", "price": 94.99, "category": "Meat & Deli"},
+        {"description": "Vaseline PJ Baby F/Free 450ml", "price": 74.99, "category": "Health & Beauty"},
+        {"description": "Baby Aqueous Cream F/Free", "price": 54.99, "category": "Health & Beauty"}
+      ]
+    },
+    {
+      "source_file": "WhatsApp Image 2026-03-02 at 09.21.19 (1).md",
+      "store": "Checkers",
+      "date": "2026-02-04",
+      "total": 384.96,
+      "discounts": 50.00,
+      "items": [
+        {"description": "Miami Pickle 760g", "price": 44.99, "category": "Pantry & Dry Goods"},
+        {"description": "Jacobs Kronung Coffee 200g", "price": 159.99, "category": "Beverages"},
+        {"description": "Bonnie Bio Herbal Tea 20s x2", "price": 179.98, "category": "Beverages"}
+      ]
+    },
+    {
+      "source_file": "WhatsApp Image 2026-03-02 at 09.21.18 (3).md",
+      "store": "Woolworths",
+      "date": "2026-02-05",
+      "total": 990.74,
+      "discounts": 6.00,
+      "items": [
+        {"description": "Cotton Candy 500g", "price": 59.99, "category": "Fruit"},
+        {"description": "Raisins 500g", "price": 61.99, "category": "Pantry & Dry Goods"},
+        {"description": "Sultanas 500g", "price": 61.99, "category": "Pantry & Dry Goods"},
+        {"description": "Sultanas 500g", "price": 61.99, "category": "Pantry & Dry Goods"},
+        {"description": "Raisins 500g", "price": 61.99, "category": "Pantry & Dry Goods"},
+        {"description": "Candy Hearts 500g", "price": 59.99, "category": "Fruit"},
+        {"description": "4M Wh Cheddar 400g", "price": 94.99, "category": "Dairy & Eggs"},
+        {"description": "FB Yellow Nect 6/9", "price": 57.99, "category": "Fruit"},
+        {"description": "HS Bran Rusk 450g", "price": 79.99, "category": "Pantry & Dry Goods"},
+        {"description": "HS Muesli Rusk 800g", "price": 114.99, "category": "Pantry & Dry Goods"},
+        {"description": "Nicola Pots 1.5kg", "price": 46.99, "category": "Vegetables"},
+        {"description": "Bananas Large", "price": 36.99, "category": "Fruit"},
+        {"description": "6 Crumbed Chicken Breasts", "price": 97.88, "category": "Meat & Deli"},
+        {"description": "Avocado 2 Punnet", "price": 79.99, "category": "Fruit"},
+        {"description": "Mrice Cashew Cream 15g", "price": 12.99, "category": "Snacks & Treats"}
+      ]
+    },
+    {
+      "source_file": "WhatsApp Image 2026-03-02 at 09.21.19.md",
+      "store": "Checkers",
+      "date": "2026-02-05",
+      "total": 49.98,
+      "discounts": 0.00,
+      "items": [
+        {"description": "Free Cape Low Fat Milk Eco 2L", "price": 29.99, "category": "Dairy & Eggs"},
+        {"description": "Brown Super Bread 700g", "price": 19.99, "category": "Pantry & Dry Goods"}
+      ]
+    },
+    {
+      "source_file": "WhatsApp Image 2026-03-02 at 09.21.12 (1).md",
+      "store": "Pick n Pay",
+      "date": "2026-02-07",
+      "total": 234.08,
+      "discounts": 6.00,
+      "items": [
+        {"description": "Jungle Oats 1kg", "price": 46.99, "category": "Pantry & Dry Goods"},
+        {"description": "EcoFresh Low Fat Milk", "price": 29.99, "category": "Dairy & Eggs"},
+        {"description": "Beacon Marshmallow Egg x3", "price": 8.97, "category": "Snacks & Treats"},
+        {"description": "Eggs Large All Grain", "price": 25.99, "category": "Dairy & Eggs"},
+        {"description": "Skinless Chicken Fillet x4", "price": 61.87, "category": "Meat & Deli"},
+        {"description": "Skinless Chicken Fillet x4", "price": 44.28, "category": "Meat & Deli"},
+        {"description": "Nestle Smarties 40g", "price": 15.99, "category": "Snacks & Treats"}
+      ]
+    },
+    {
+      "source_file": "WhatsApp Image 2026-03-02 at 09.21.18 (1).md",
+      "store": "Woolworths",
+      "date": "2026-02-08",
+      "total": 216.99,
+      "discounts": 39.98,
+      "items": [
+        {"description": "Med Rotisserie Chicken", "price": 90.00, "category": "Meat & Deli"},
+        {"description": "Med Rotisserie Chicken", "price": 90.00, "category": "Meat & Deli"},
+        {"description": "Multiseed Wraps", "price": 36.99, "category": "Pantry & Dry Goods"}
+      ]
+    },
+    {
+      "source_file": "WhatsApp Image 2026-03-02 at 09.21.18 (2).md",
+      "store": "Woolworths",
+      "date": "2026-02-08",
+      "total": 213.93,
+      "discounts": 0.00,
+      "items": [
+        {"description": "Medium Carrots 500g", "price": 10.99, "category": "Vegetables"},
+        {"description": "Cotton Candy 500g", "price": 59.99, "category": "Fruit"},
+        {"description": "Mini Rosa Toms 200g", "price": 26.99, "category": "Vegetables"},
+        {"description": "Radish 150g", "price": 19.99, "category": "Vegetables"},
+        {"description": "Net of Hearts 110g", "price": 49.99, "category": "Meat & Deli"},
+        {"description": "Yellow Pepper Single", "price": 18.99, "category": "Vegetables"},
+        {"description": "Spinach Rocket Watercress 100g", "price": 26.99, "category": "Vegetables"}
+      ]
+    },
+    {
+      "source_file": "WhatsApp Image 2026-03-02 at 09.21.18.md",
+      "store": "Woolworths",
+      "date": "2026-02-10",
+      "total": 305.93,
+      "discounts": 6.00,
+      "items": [
+        {"description": "Thick Brown Bread", "price": 20.99, "category": "Pantry & Dry Goods"},
+        {"description": "Low Fat Milk 2L", "price": 36.99, "category": "Dairy & Eggs"},
+        {"description": "Candy Hearts 500g", "price": 59.99, "category": "Fruit"},
+        {"description": "Yellow Cling 6/9 Punnet", "price": 52.99, "category": "Fruit"},
+        {"description": "FB Yellow Nect 6/9", "price": 57.99, "category": "Fruit"},
+        {"description": "G/Delicious 1.5kg", "price": 39.99, "category": "Fruit"},
+        {"description": "Bananas Large", "price": 36.99, "category": "Fruit"}
+      ]
+    },
+    {
+      "source_file": "WhatsApp Image 2026-03-02 at 09.21.12 (2).md",
+      "store": "Pick n Pay",
+      "date": "2026-02-11",
+      "total": 406.89,
+      "discounts": 25.00,
+      "items": [
+        {"description": "Ginger Beer Handcrafted 1L", "price": 24.99, "category": "Beverages"},
+        {"description": "Eggs Large All Grain", "price": 25.99, "category": "Dairy & Eggs"},
+        {"description": "L&CC Crumbed Hake Fillet 500g+100g", "price": 94.99, "category": "Meat & Deli"},
+        {"description": "Viennas Chicken Original", "price": 79.99, "category": "Meat & Deli"},
+        {"description": "Fritos Tomato 120g", "price": 19.59, "category": "Snacks & Treats"},
+        {"description": "White Gouda SS Cuts pk", "price": 57.79, "category": "Dairy & Eggs"},
+        {"description": "Marshmallow Eggs Strip x3", "price": 9.99, "category": "Snacks & Treats"},
+        {"description": "PnP Cheese Rolls 4ea", "price": 35.99, "category": "Pantry & Dry Goods"},
+        {"description": "CC Teenyweenie Choc Eggs x6", "price": 19.99, "category": "Snacks & Treats"},
+        {"description": "Wilsons XXX Mints 26g", "price": 6.99, "category": "Snacks & Treats"},
+        {"description": "Mutton Curry Pie", "price": 27.99, "category": "Meat & Deli"},
+        {"description": "Carrier Bag 24L x2", "price": 2.60, "category": "Household"}
+      ]
+    },
+    {
+      "source_file": "WhatsApp Image 2026-03-02 at 09.21.13.md",
+      "store": "Clicks",
+      "date": "2026-02-11",
+      "total": 117.98,
+      "discounts": 58.99,
+      "items": [
+        {"description": "Energizer A23 Battery Pack x3", "price": 117.98, "category": "Household"}
+      ]
+    },
+    {
+      "source_file": "WhatsApp Image 2026-03-02 at 09.21.17 (3).md",
+      "store": "Woolworths",
+      "date": "2026-02-12",
+      "total": 579.86,
+      "discounts": 0.00,
+      "items": [
+        {"description": "Avocado 2 Punnet", "price": 79.99, "category": "Fruit"},
+        {"description": "Low Fat Milk 2L", "price": 36.99, "category": "Dairy & Eggs"},
+        {"description": "Low Fat Milk 2L", "price": 36.99, "category": "Dairy & Eggs"},
+        {"description": "8 Free Range Beef Burgers", "price": 139.99, "category": "Meat & Deli"},
+        {"description": "Iceberg Lettuce Head", "price": 21.99, "category": "Vegetables"},
+        {"description": "Porta Mush 250g", "price": 38.99, "category": "Vegetables"},
+        {"description": "Beef Noodles 75g", "price": 10.99, "category": "Pantry & Dry Goods"},
+        {"description": "Mac Cheese Noodles 75g", "price": 10.99, "category": "Pantry & Dry Goods"},
+        {"description": "Mixed Veg 400g", "price": 38.99, "category": "Vegetables"},
+        {"description": "Rosa Tomatoes 200g", "price": 26.99, "category": "Vegetables"},
+        {"description": "Traditional Hot Cross Buns 6pk", "price": 46.99, "category": "Pantry & Dry Goods"},
+        {"description": "4 Cheese Rolls", "price": 36.99, "category": "Pantry & Dry Goods"},
+        {"description": "Brown Sandwich Bread", "price": 20.99, "category": "Pantry & Dry Goods"},
+        {"description": "Loose Pineapple", "price": 31.99, "category": "Fruit"}
+      ]
+    },
+    {
+      "source_file": "WhatsApp Image 2026-03-02 at 09.21.17 (1).md",
+      "store": "Woolworths",
+      "date": "2026-02-16",
+      "total": 119.99,
+      "discounts": 0.00,
+      "items": [
+        {"description": "Choc Macadamia Nougat 160g", "price": 119.99, "category": "Snacks & Treats"}
+      ]
+    },
+    {
+      "source_file": "WhatsApp Image 2026-03-02 at 09.21.17 (2).md",
+      "store": "Woolworths",
+      "date": "2026-02-16",
+      "total": 275.93,
+      "discounts": 15.00,
+      "items": [
+        {"description": "Marrows 800g", "price": 49.99, "category": "Vegetables"},
+        {"description": "Sliced Portabellini", "price": 38.99, "category": "Vegetables"},
+        {"description": "Sweet Peppers 2s", "price": 34.99, "category": "Vegetables"},
+        {"description": "Bananas Small", "price": 35.99, "category": "Fruit"},
+        {"description": "Candy Hearts 500g", "price": 52.49, "category": "Fruit"},
+        {"description": "Cotton Candy 500g", "price": 52.49, "category": "Fruit"},
+        {"description": "Medium Carrots 500g", "price": 10.99, "category": "Vegetables"}
+      ]
+    },
+    {
+      "source_file": "WhatsApp Image 2026-03-02 at 09.21.17.md",
+      "store": "Pick n Pay",
+      "date": "2026-02-18",
+      "total": 512.77,
+      "discounts": 25.00,
+      "items": [
+        {"description": "White Cheddar pk", "price": 28.71, "category": "Dairy & Eggs"},
+        {"description": "Cook In Sauce Sweet & Sour", "price": 54.99, "category": "Pantry & Dry Goods"},
+        {"description": "Gummies Berry Boost 65g", "price": 23.99, "category": "Snacks & Treats"},
+        {"description": "Orange Juice 1L", "price": 39.99, "category": "Beverages"},
+        {"description": "Pineapples Queen", "price": 26.99, "category": "Fruit"},
+        {"description": "PnP Cheese Rolls 4ea", "price": 35.99, "category": "Pantry & Dry Goods"},
+        {"description": "Beef Goulash (ready meal)", "price": 58.14, "category": "Meat & Deli"},
+        {"description": "I&J L&CC Crumbed Hake Fillet 500g+100g", "price": 94.99, "category": "Meat & Deli"},
+        {"description": "Hot Chutney 1.1kg", "price": 88.99, "category": "Pantry & Dry Goods"},
+        {"description": "Plaster Fabric Assorted", "price": 59.99, "category": "Health & Beauty"}
+      ]
+    },
+    {
+      "source_file": "WhatsApp Image 2026-03-02 at 09.21.16 (1).md",
+      "store": "Woolworths",
+      "date": "2026-02-20",
+      "total": 552.89,
+      "discounts": 40.98,
+      "items": [
+        {"description": "G/Delicious Apples 1.5kg", "price": 39.99, "category": "Fruit"},
+        {"description": "Candy Hearts 500g", "price": 52.49, "category": "Fruit"},
+        {"description": "Cotton Candy 500g", "price": 52.49, "category": "Fruit"},
+        {"description": "FB Plum 6/9 Punnet", "price": 84.98, "category": "Fruit"},
+        {"description": "Smkd Gypsy Ham 250g", "price": 89.99, "category": "Meat & Deli"},
+        {"description": "Medium Carrots 500g", "price": 10.99, "category": "Vegetables"},
+        {"description": "Marrows 800g", "price": 49.99, "category": "Vegetables"},
+        {"description": "Bananas Large", "price": 36.99, "category": "Fruit"},
+        {"description": "FB Yellow Nect 6/9", "price": 26.00, "category": "Fruit"},
+        {"description": "Brinjals", "price": 25.00, "category": "Vegetables"},
+        {"description": "Brinjals", "price": 25.00, "category": "Vegetables"},
+        {"description": "Loose Mango", "price": 19.99, "category": "Fruit"},
+        {"description": "Porta Mush 250g", "price": 38.99, "category": "Vegetables"}
+      ]
+    },
+    {
+      "source_file": "WhatsApp Image 2026-03-02 at 09.21.12.md",
+      "store": "Pick n Pay",
+      "date": "2026-02-22",
+      "total": 189.96,
+      "discounts": 12.00,
+      "items": [
+        {"description": "All Bran Flakes 750g", "price": 82.99, "category": "Pantry & Dry Goods"},
+        {"description": "Jungle Oats 1kg", "price": 46.99, "category": "Pantry & Dry Goods"},
+        {"description": "EcoFresh Low Fat Milk x2", "price": 59.98, "category": "Dairy & Eggs"}
+      ]
+    },
+    {
+      "source_file": "WhatsApp Image 2026-03-02 at 09.21.15.md",
+      "store": "Woolworths",
+      "date": "2026-02-22",
+      "total": 253.95,
+      "discounts": 0.00,
+      "items": [
+        {"description": "Earl Grey Tea 40s", "price": 54.99, "category": "Beverages"},
+        {"description": "Iceberg Lettuce Head", "price": 21.99, "category": "Vegetables"},
+        {"description": "Baby Spinach 100g", "price": 18.99, "category": "Vegetables"},
+        {"description": "Baby Corn 100g", "price": 31.99, "category": "Vegetables"},
+        {"description": "Haloumi Bell Pepper", "price": 99.00, "category": "Dairy & Eggs"},
+        {"description": "Rosa Tomatoes 200g", "price": 26.99, "category": "Vegetables"}
+      ]
+    },
+    {
+      "source_file": "WhatsApp Image 2026-03-02 at 09.21.11 (1).md",
+      "store": "Pick n Pay",
+      "date": "2026-02-24",
+      "total": 677.23,
+      "discounts": 64.00,
+      "items": [
+        {"description": "EcoFresh Low Fat Milk", "price": 29.99, "category": "Dairy & Eggs"},
+        {"description": "L&CC Crumbed Hake Fillet 500g+100g", "price": 94.99, "category": "Meat & Deli"},
+        {"description": "28 Day Thick Porterhouse Steak pk", "price": 165.29, "category": "Meat & Deli"},
+        {"description": "PnP Peanut Butter Smooth 800g", "price": 79.99, "category": "Pantry & Dry Goods"},
+        {"description": "Douwe Egberts Instant Coffee", "price": 186.99, "category": "Beverages"},
+        {"description": "Potato Gnocchi 500g x2", "price": 119.98, "category": "Pantry & Dry Goods"}
+      ]
+    },
+    {
+      "source_file": "WhatsApp Image 2026-03-02 at 09.21.11.md",
+      "store": "Dis-Chem",
+      "date": "2026-02-24",
+      "total": 126.79,
+      "discounts": 37.18,
+      "items": [
+        {"description": "Dove Soap 4x90g White", "price": 76.49, "category": "Health & Beauty"},
+        {"description": "Panado Tabs 24's x2", "price": 50.30, "category": "Health & Beauty"}
+      ]
+    },
+    {
+      "source_file": "WhatsApp Image 2026-03-02 at 09.21.10 (1).md",
+      "store": "Woolworths",
+      "date": "2026-02-26",
+      "total": 1007.34,
+      "discounts": 104.98,
+      "items": [
+        {"description": "2 Ply Toilet Paper 18pk", "price": 115.00, "category": "Household"},
+        {"description": "2 Ply Toilet Paper 18pk", "price": 115.00, "category": "Household"},
+        {"description": "Sweet Pots 2kg", "price": 50.00, "category": "Vegetables"},
+        {"description": "Loose Butternut", "price": 25.49, "category": "Vegetables"},
+        {"description": "Marrows 800g", "price": 49.99, "category": "Vegetables"},
+        {"description": "Cotton Candy 500g", "price": 59.99, "category": "Fruit"},
+        {"description": "Sliced Portabellini", "price": 38.99, "category": "Vegetables"},
+        {"description": "Rosa Tomatoes 200g", "price": 26.99, "category": "Vegetables"},
+        {"description": "Raisins 500g", "price": 61.99, "category": "Pantry & Dry Goods"},
+        {"description": "Sultanas 500g", "price": 61.99, "category": "Pantry & Dry Goods"},
+        {"description": "Tarragon 20g", "price": 14.99, "category": "Vegetables"},
+        {"description": "Thyme 20g", "price": 14.99, "category": "Vegetables"},
+        {"description": "Cling Peach 4 Punnet", "price": 42.99, "category": "Fruit"},
+        {"description": "Bananas Large", "price": 34.99, "category": "Fruit"},
+        {"description": "Lse Yellow Pepper", "price": 12.99, "category": "Vegetables"},
+        {"description": "Avocado 2 Punnet", "price": 72.99, "category": "Fruit"},
+        {"description": "Radish 150g", "price": 19.99, "category": "Vegetables"},
+        {"description": "Smkd Gypsy Ham 250g", "price": 89.99, "category": "Meat & Deli"},
+        {"description": "Zanli Date Box", "price": 97.99, "category": "Snacks & Treats"}
+      ]
+    },
+    {
+      "source_file": "WhatsApp Image 2026-03-02 at 09.21.10.md",
+      "store": "Woolworths",
+      "date": "2026-02-28",
+      "total": 315.96,
+      "discounts": 10.00,
+      "items": [
+        {"description": "HS Muesli Rusk 800g", "price": 104.99, "category": "Pantry & Dry Goods"},
+        {"description": "Banana Organic Bag", "price": 36.99, "category": "Fruit"},
+        {"description": "4M Wh Cheddar 400g", "price": 94.99, "category": "Dairy & Eggs"},
+        {"description": "Vegan Brownie Slices", "price": 78.99, "category": "Snacks & Treats"}
+      ]
+    }
+  ]
+}

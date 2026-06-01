@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.log
+.streamlit/secrets.toml
+SlipsPhotos/
+manual_ocr_receipts.csv
+spending_report_*.pdf
+costs.pdf
