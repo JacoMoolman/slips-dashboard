@@ -326,6 +326,7 @@ def chart_category_donut(df_i):
 
 def chart_store_bar(df_s):
     agg = df_s.groupby("store")["total"].sum().reset_index().sort_values("total")
+    xmax = float(agg["total"].max()) if not agg.empty else 1.0
     colors = [STORE_COLORS.get(s, "#7a85aa") for s in agg["store"]]
     fig = go.Figure(go.Bar(
         x=agg["total"], y=agg["store"], orientation="h",
@@ -333,12 +334,13 @@ def chart_store_bar(df_s):
         text=[f"R {v:,.0f}" for v in agg["total"]],
         textposition="outside",
         textfont=dict(color="#c8d0e7"),
+        cliponaxis=False,
         hovertemplate="<b>%{y}</b><br>R %{x:,.2f}<extra></extra>",
     ))
     fig.update_layout(**plotly_layout(
         height=max(320, 34 * len(agg) + 130),
-        margin=dict(t=10, b=42, l=8, r=54),
-        xaxis=dict(showgrid=True, gridcolor="#1e2340", tickformat=",.0f", title="Amount (R)", color="#7a85aa", fixedrange=True),
+        margin=dict(t=10, b=42, l=8, r=80),
+        xaxis=dict(showgrid=True, gridcolor="#1e2340", tickformat=",.0f", title="Amount (R)", color="#7a85aa", range=[0, xmax * 1.25], fixedrange=True),
         yaxis=dict(showgrid=False, color="#c8d0e7", automargin=True, fixedrange=True),
     ))
     return fig
