@@ -1,6 +1,6 @@
 {
   "month": "2026-05",
-  "generated_at": "2026-06-01T00:00:00",
+  "generated_at": "2026-06-02T00:00:00",
   "slips": [
     {
       "source_file": "WhatsApp Image 2026-06-01 at 20.39.54.jpeg",
@@ -1147,6 +1147,97 @@
           "description": "Tante Anna Bread",
           "price": 28.99,
           "category": "Pantry & Dry Goods"
+        }
+      ],
+      "month": "2026-05"
+    },
+    {
+      "source_file": "WhatsApp Image 2026-06-02 at 08.35.25.jpeg",
+      "store": "Pick n Pay",
+      "location": "Claremont",
+      "date": "2026-05-26",
+      "total": 974.71,
+      "discounts": 39.0,
+      "items": [
+        {
+          "description": "Oats Trad Large Flake x2",
+          "price": 149.98,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "EcoFresh Low Fat Milk x2",
+          "price": 75.98,
+          "category": "Dairy & Eggs"
+        },
+        {
+          "description": "PnP Free Range Canola Eggs 6",
+          "price": 25.99,
+          "category": "Dairy & Eggs"
+        },
+        {
+          "description": "Marmite Spread 250g x3",
+          "price": 194.97,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Steak and Kidney Pie",
+          "price": 29.99,
+          "category": "Meat & Deli"
+        },
+        {
+          "description": "Mouthwash Teeth & Gum Protect",
+          "price": 84.99,
+          "category": "Health & Beauty"
+        },
+        {
+          "description": "Good Stuff Hand Wash Bee Natural 500ml",
+          "price": 51.99,
+          "category": "Health & Beauty"
+        },
+        {
+          "description": "Good Stuff Hand Wash In Good Hands 500ml",
+          "price": 51.99,
+          "category": "Health & Beauty"
+        },
+        {
+          "description": "Mouthwash Teeth & Gum Protect",
+          "price": 129.99,
+          "category": "Health & Beauty"
+        },
+        {
+          "description": "Nat Nurture Hand Wash 500ml",
+          "price": 51.99,
+          "category": "Health & Beauty"
+        },
+        {
+          "description": "Hygiene Herbal Soap 175g",
+          "price": 15.99,
+          "category": "Health & Beauty"
+        },
+        {
+          "description": "Fresh Bar Soap 175g",
+          "price": 15.99,
+          "category": "Health & Beauty"
+        },
+        {
+          "description": "Hygiene Active Soap 175g",
+          "price": 15.99,
+          "category": "Health & Beauty"
+        },
+        {
+          "description": "Gemmerkat Ginger Beer 2L",
+          "price": 36.99,
+          "category": "Beverages"
+        },
+        {
+          "description": "White Cheddar",
+          "price": 33.90,
+          "category": "Dairy & Eggs"
+        },
+        {
+          "description": "Wilsons XXX Mints 26g",
+          "price": 7.99,
+          "category": "Snacks & Treats"
         }
       ],
       "month": "2026-05"
