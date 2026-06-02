@@ -357,13 +357,24 @@ def chart_monthly_trend(df_s_all, sel_stores):
         text=[f"R {v:,.0f}" for v in agg["total"]],
         textposition="top center",
         textfont=dict(color="#c8d0e7", size=11),
+        cliponaxis=False,
         fill="tozeroy",
         fillcolor="rgba(108,138,255,0.08)",
         hovertemplate="<b>%{x}</b><br>R %{y:,.2f}<extra></extra>",
     ))
     fig.update_layout(**plotly_layout(
         height=260,
-        xaxis=dict(showgrid=True, gridcolor="#1e2340", color="#7a85aa", fixedrange=True),
+        margin=dict(t=34, b=42, l=54, r=54),
+        xaxis=dict(
+            type="category",
+            categoryorder="array",
+            categoryarray=agg["month"].tolist(),
+            range=[-0.35, len(agg) - 0.65],
+            showgrid=True,
+            gridcolor="#1e2340",
+            color="#7a85aa",
+            fixedrange=True,
+        ),
         yaxis=dict(showgrid=True, gridcolor="#1e2340", tickformat=",.0f", title="R", color="#7a85aa", fixedrange=True),
     ))
     return fig
