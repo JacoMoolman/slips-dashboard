@@ -571,7 +571,7 @@ def main():
 
     # ── Exports ───────────────────────────────────────────────────────────────
     st.markdown('<div class="section-title">Export</div>', unsafe_allow_html=True)
-    e1, e2, e3 = st.columns(3)
+    e1, e2 = st.columns(2)
 
     with e1:
         csv_df = df_i[["month", "date", "store", "category", "description", "price"]].copy()
@@ -599,20 +599,6 @@ def main():
                 )
             except ImportError:
                 st.error("Install fpdf2: pip install fpdf2")
-
-    with e3:
-        try:
-            cat_fig = chart_category_donut(df_i)
-            img_bytes = cat_fig.to_image(format="png", width=900, height=500, scale=2)
-            st.download_button(
-                "Download Chart PNG",
-                data=img_bytes,
-                file_name=f"spending_chart_{'_'.join(sel_months)}.png",
-                mime="image/png",
-                use_container_width=True,
-            )
-        except Exception:
-            st.caption("Install kaleido for PNG: pip install kaleido")
 
 
 if __name__ == "__main__":
