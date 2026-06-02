@@ -187,6 +187,9 @@ PLOTLY_LAYOUT = dict(
     ),
 )
 
+INTERACTIVE_CHART_CONFIG = {"displayModeBar": False, "scrollZoom": False}
+STATIC_CHART_CONFIG = {"displayModeBar": False, "scrollZoom": False, "staticPlot": True}
+
 
 def plotly_layout(**overrides):
     layout = dict(PLOTLY_LAYOUT)
@@ -335,8 +338,8 @@ def chart_store_bar(df_s):
     fig.update_layout(**plotly_layout(
         height=max(320, 34 * len(agg) + 130),
         margin=dict(t=10, b=42, l=8, r=54),
-        xaxis=dict(showgrid=True, gridcolor="#1e2340", tickformat=",.0f", title="Amount (R)", color="#7a85aa"),
-        yaxis=dict(showgrid=False, color="#c8d0e7", automargin=True),
+        xaxis=dict(showgrid=True, gridcolor="#1e2340", tickformat=",.0f", title="Amount (R)", color="#7a85aa", fixedrange=True),
+        yaxis=dict(showgrid=False, color="#c8d0e7", automargin=True, fixedrange=True),
     ))
     return fig
 
@@ -360,8 +363,8 @@ def chart_monthly_trend(df_s_all, sel_stores):
     ))
     fig.update_layout(**plotly_layout(
         height=260,
-        xaxis=dict(showgrid=True, gridcolor="#1e2340", color="#7a85aa"),
-        yaxis=dict(showgrid=True, gridcolor="#1e2340", tickformat=",.0f", title="R", color="#7a85aa"),
+        xaxis=dict(showgrid=True, gridcolor="#1e2340", color="#7a85aa", fixedrange=True),
+        yaxis=dict(showgrid=True, gridcolor="#1e2340", tickformat=",.0f", title="R", color="#7a85aa", fixedrange=True),
     ))
     return fig
 
@@ -384,8 +387,8 @@ def chart_stacked_store_cat(df_i):
         barmode="stack",
         height=max(420, 36 * len(pivot) + 280),
         margin=dict(t=28, b=120, l=64, r=28),
-        xaxis=dict(showgrid=False, color="#c8d0e7", tickfont=dict(size=11), automargin=True),
-        yaxis=dict(showgrid=True, gridcolor="#1e2340", tickformat=",.0f", title="R", color="#7a85aa"),
+        xaxis=dict(showgrid=False, color="#c8d0e7", tickfont=dict(size=11), automargin=True, fixedrange=True),
+        yaxis=dict(showgrid=True, gridcolor="#1e2340", tickformat=",.0f", title="R", color="#7a85aa", fixedrange=True),
         legend=dict(
             orientation="h",
             yanchor="bottom",
@@ -523,13 +526,13 @@ def main():
     with col1:
         st.markdown("**By Category**")
         if not df_i.empty:
-            st.plotly_chart(chart_category_donut(df_i), use_container_width=True, config={"displayModeBar": False})
+            st.plotly_chart(chart_category_donut(df_i), use_container_width=True, config=INTERACTIVE_CHART_CONFIG)
         else:
             st.info("No item data for selection.")
     with col2:
         st.markdown("**By Store**")
         if not df_s.empty:
-            st.plotly_chart(chart_store_bar(df_s), use_container_width=True, config={"displayModeBar": False})
+            st.plotly_chart(chart_store_bar(df_s), use_container_width=True, config=STATIC_CHART_CONFIG)
         else:
             st.info("No store data.")
 
@@ -537,12 +540,12 @@ def main():
     all_months = sorted(df_s_all["month"].unique())
     if len(all_months) > 1:
         st.markdown('<div class="section-title">Monthly Trend</div>', unsafe_allow_html=True)
-        st.plotly_chart(chart_monthly_trend(df_s_all, sel_stores), use_container_width=True, config={"displayModeBar": False})
+        st.plotly_chart(chart_monthly_trend(df_s_all, sel_stores), use_container_width=True, config=STATIC_CHART_CONFIG)
 
     # ── Stacked bar: category by store ────────────────────────────────────────
     if not df_i.empty and df_i["store"].nunique() > 1:
         st.markdown('<div class="section-title">Category Mix by Store</div>', unsafe_allow_html=True)
-        st.plotly_chart(chart_stacked_store_cat(df_i), use_container_width=True, config={"displayModeBar": False})
+        st.plotly_chart(chart_stacked_store_cat(df_i), use_container_width=True, config=STATIC_CHART_CONFIG)
 
     # ── Items table ───────────────────────────────────────────────────────────
     st.markdown('<div class="section-title">All Items</div>', unsafe_allow_html=True)

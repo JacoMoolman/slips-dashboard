@@ -3,6 +3,7 @@
 ## Current Online Repo
 
 - GitHub repo: `https://github.com/JacoMoolman/slips-dashboard`
+- Streamlit app: `https://slips-dashboard-jaco.streamlit.app/`
 - Visibility: public
 - Branch: `master`
 - Main Streamlit file: `dashboard/dashboard.py`
@@ -17,7 +18,7 @@ Branch: master
 Main file path: dashboard/dashboard.py
 ```
 
-The generated app URL can be any available `*.streamlit.app` name.
+Streamlit app URL: `https://slips-dashboard-jaco.streamlit.app/`
 
 ## Streamlit Secrets
 
