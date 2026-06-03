@@ -385,23 +385,23 @@ def chart_monthly_trend(df_s_all, sel_stores):
 
 
 def chart_category_by_month(df_i):
-    agg = (df_i.groupby(["month", "category"])["price"].sum()
-           .reset_index()
-           .sort_values(["month", "category"]))
-    months = sorted(agg["month"].unique())
-    category_order = [c for c in CATEGORY_COLORS if c in agg["category"].unique()]
-    category_order.extend(sorted(c for c in agg["category"].unique() if c not in category_order))
+    pivot = df_i.pivot_table(
+        values="price",
+        index="month",
+        columns="category",
+        aggfunc="sum",
+        fill_value=0,
+    ).sort_index()
+    months = pivot.index.astype(str).tolist()
+    category_order = [c for c in CATEGORY_COLORS if c in pivot.columns]
+    category_order.extend(sorted(c for c in pivot.columns if c not in category_order))
 
     fig = go.Figure()
     for cat in category_order:
-        cat_values = (agg[agg["category"] == cat]
-                      .set_index("month")
-                      .reindex(months, fill_value=0)
-                      .reset_index())
         fig.add_trace(go.Bar(
             name=cat,
-            x=cat_values["month"],
-            y=cat_values["price"],
+            x=months,
+            y=pivot[cat],
             marker_color=CATEGORY_COLORS.get(cat, "#7a85aa"),
             hovertemplate=f"<b>{cat}</b><br>%{{x}}<br>R %{{y:,.2f}}<extra></extra>",
         ))
