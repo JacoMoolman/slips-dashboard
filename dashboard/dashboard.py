@@ -164,6 +164,8 @@ CATEGORY_COLORS = {
     "Beverages":         "#4ecdc4",
     "Household":         "#6c8aff",
     "Health & Beauty":   "#48dbfb",
+    "Vegetables":        "#a4b0d4",
+    "Fruit":             "#8f9bbd",
     "Other":             "#7a85aa",
 }
 
@@ -382,6 +384,55 @@ def chart_monthly_trend(df_s_all, sel_stores):
     return fig
 
 
+def chart_category_by_month(df_i):
+    agg = (df_i.groupby(["month", "category"])["price"].sum()
+           .reset_index()
+           .sort_values(["month", "category"]))
+    months = sorted(agg["month"].unique())
+    category_order = [c for c in CATEGORY_COLORS if c in agg["category"].unique()]
+    category_order.extend(sorted(c for c in agg["category"].unique() if c not in category_order))
+
+    fig = go.Figure()
+    for cat in category_order:
+        cat_values = (agg[agg["category"] == cat]
+                      .set_index("month")
+                      .reindex(months, fill_value=0)
+                      .reset_index())
+        fig.add_trace(go.Bar(
+            name=cat,
+            x=cat_values["month"],
+            y=cat_values["price"],
+            marker_color=CATEGORY_COLORS.get(cat, "#7a85aa"),
+            hovertemplate=f"<b>{cat}</b><br>%{{x}}<br>R %{{y:,.2f}}<extra></extra>",
+        ))
+
+    fig.update_layout(**plotly_layout(
+        barmode="stack",
+        height=max(360, 42 * len(months) + 250),
+        margin=dict(t=28, b=72, l=64, r=28),
+        xaxis=dict(
+            type="category",
+            categoryorder="array",
+            categoryarray=months,
+            showgrid=False,
+            color="#c8d0e7",
+            fixedrange=True,
+        ),
+        yaxis=dict(showgrid=True, gridcolor="#1e2340", tickformat=",.0f", title="R", color="#7a85aa", fixedrange=True),
+        legend=dict(
+            orientation="h",
+            yanchor="bottom",
+            y=1.02,
+            xanchor="left",
+            x=0,
+            bgcolor="rgba(0,0,0,0)",
+            bordercolor="#1e2340",
+            font=dict(size=10),
+        ),
+    ))
+    return fig
+
+
 def chart_stacked_store_cat(df_i):
     pivot = (df_i.pivot_table(values="price", index="store", columns="category", aggfunc="sum", fill_value=0)
              .reset_index())
@@ -554,6 +605,10 @@ def main():
     if len(all_months) > 1:
         st.markdown('<div class="section-title">Monthly Trend</div>', unsafe_allow_html=True)
         st.plotly_chart(chart_monthly_trend(df_s_all, sel_stores), use_container_width=True, config=STATIC_CHART_CONFIG)
+
+    if not df_i.empty and len(sel_months) > 1:
+        st.markdown('<div class="section-title">Category by Month</div>', unsafe_allow_html=True)
+        st.plotly_chart(chart_category_by_month(df_i), use_container_width=True, config=STATIC_CHART_CONFIG)
 
     # ── Stacked bar: category by store ────────────────────────────────────────
     if not df_i.empty and df_i["store"].nunique() > 1:
