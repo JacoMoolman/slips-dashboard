@@ -14,6 +14,7 @@ import plotly.graph_objects as go
 import streamlit as st
 
 DATA_DIR = Path(__file__).parent / "data"
+HEADER_IMAGE = Path(__file__).parent / "assets" / "jm2-dashboard-masthead.png"
 
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
@@ -201,6 +202,35 @@ button[kind="secondary"]:hover,
     color: %(muted)s;
     font-size: 0.78em;
     margin-top: 0.25rem;
+}
+[data-testid="stImage"] {
+    max-width: 720px;
+    margin: 0 auto;
+}
+[data-testid="stImage"] img {
+    width: 100%%;
+    height: auto;
+    display: block;
+}
+.brand-month {
+    margin: 0.15rem 0 1.45rem;
+    color: %(muted)s;
+    font-size: clamp(1.05rem, 2.4vw, 1.35rem);
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    line-height: 1.2;
+    text-align: center;
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 }
 h1 {
     font-size: clamp(2rem, 7vw, 3.2rem) !important;
@@ -662,7 +692,7 @@ def main():
     df_s = df_s_all[mask_s]
     df_i = df_i_all[mask_i]
 
-    # ── Theme + title ──────────────────────────────────────────────────────────
+    # ── Theme + masthead ───────────────────────────────────────────────────────
     st.toggle(
         "Dark mode",
         key="dark_mode",
@@ -670,7 +700,12 @@ def main():
     )
 
     month_label = ", ".join(sel_months) if sel_months else "All months"
-    st.markdown(f"# JM² Shopping Dashboard — {month_label}")
+    st.image(str(HEADER_IMAGE), use_container_width=True)
+    st.markdown(
+        f'<h1 class="sr-only">JM² Shopping Dashboard — {month_label}</h1>'
+        f'<div class="brand-month">{month_label}</div>',
+        unsafe_allow_html=True,
+    )
 
     # ── KPI cards ─────────────────────────────────────────────────────────────
     total_spend  = df_s["total"].sum()
