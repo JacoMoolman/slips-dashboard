@@ -103,6 +103,7 @@ html, body, [class*="css"] {
     background: %(button_hover)s !important;
     border-color: #5b78e5 !important;
 }
+[data-testid="stPopover"] > button:focus,
 [data-testid="stPopover"] > button:focus-visible {
     outline: none !important;
     border-color: #5b78e5 !important;
