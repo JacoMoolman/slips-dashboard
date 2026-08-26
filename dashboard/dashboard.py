@@ -108,6 +108,67 @@ hr { border-color: %(border)s !important; }
 }
 [data-baseweb="tag"] { background: %(surface_alt)s !important; }
 [data-baseweb="tag"] span { color: %(text)s !important; }
+
+/* Streamlit 1.62+ multiselects use React Aria instead of BaseWeb. */
+[data-testid="stMultiSelect"] .react-aria-ComboBox {
+    max-height: 7.5rem;
+}
+[data-testid="stMultiSelect"] .react-aria-ComboBox > [role="group"] {
+    min-height: 42px !important;
+    max-height: 7.5rem !important;
+    background: %(surface)s !important;
+    color: %(text)s !important;
+    border: 1px solid %(border)s !important;
+    border-radius: 10px !important;
+    box-shadow: 0 1px 2px rgba(15, 23, 42, 0.05);
+    overflow: hidden !important;
+    transition: border-color 140ms ease, box-shadow 140ms ease;
+}
+[data-testid="stMultiSelect"] .react-aria-ComboBox > [role="group"]:focus-within {
+    border-color: #5b78e5 !important;
+    box-shadow: 0 0 0 3px rgba(91, 120, 229, 0.16);
+}
+[data-testid="stMultiSelectTagsContainer"] {
+    max-height: 7.35rem !important;
+    overflow-y: auto !important;
+    scrollbar-width: thin;
+    scrollbar-color: %(border)s transparent;
+}
+[data-testid="stMultiSelect"] [data-tag] {
+    background: %(surface_alt)s !important;
+    color: %(text)s !important;
+    border: 1px solid %(border)s !important;
+    border-radius: 999px !important;
+}
+[data-testid="stMultiSelect"] [data-tag] span,
+[data-testid="stMultiSelect"] [data-tag] button,
+[data-testid="stMultiSelect"] input,
+[data-testid="stMultiSelect"] button[aria-label="Clear all"],
+[data-testid="stMultiSelect"] button[aria-label="Open"] {
+    color: %(text)s !important;
+}
+[data-testid="stMultiSelect"] [data-tag]:hover {
+    background: %(button_hover)s !important;
+}
+[data-testid="stMultiSelect"] button[aria-label="Clear all"],
+[data-testid="stMultiSelect"] button[aria-label="Open"] {
+    background: transparent !important;
+}
+div:has(> [role="listbox"]) {
+    background: %(surface)s !important;
+    color: %(text)s !important;
+    border-color: %(border)s !important;
+    border-radius: 10px !important;
+    box-shadow: 0 10px 28px rgba(15, 23, 42, 0.14) !important;
+}
+[role="listbox"],
+[role="listbox"] [role="option"] {
+    color: %(text)s !important;
+}
+[role="listbox"] [role="option"]:hover,
+[role="listbox"] [role="option"][aria-selected="true"] {
+    background: %(surface_alt)s !important;
+}
 button[kind="secondary"],
 [data-testid="stDownloadButton"] button,
 [data-testid="stFormSubmitButton"] button {
