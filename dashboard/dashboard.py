@@ -20,7 +20,7 @@ HEADER_IMAGE = Path(__file__).parent / "assets" / "jm2-dashboard-masthead.png"
 st.set_page_config(
     page_title="JM² Shopping Dashboard",
     layout="wide",
-    initial_sidebar_state="expanded",
+    initial_sidebar_state="collapsed",
 )
 
 # Light is deliberately the first-visit default, independent of the device's
@@ -91,6 +91,18 @@ html, body, [class*="css"] {
 [data-testid="stSidebar"] * { color: %(text)s !important; }
 [data-testid="stHeader"] { background: %(page)s; }
 [data-testid="stToolbar"] { color: %(text)s; }
+[data-testid="stPopover"] > button {
+    width: 100%%;
+    min-height: 42px;
+    background: %(surface)s !important;
+    color: %(text)s !important;
+    border: 1px solid %(border)s !important;
+    border-radius: 10px !important;
+}
+[data-testid="stPopover"] > button:hover {
+    background: %(button_hover)s !important;
+    border-color: #5b78e5 !important;
+}
 [data-testid="stAppViewContainer"] .block-container {
     max-width: 100%%;
     padding-left: clamp(0.75rem, 3vw, 3rem);
@@ -299,7 +311,7 @@ h1 {
 
 @media (max-width: 640px) {
     [data-testid="stAppViewContainer"] .block-container {
-        padding-top: 1rem;
+        padding-top: 4.5rem;
         padding-left: 0.75rem;
         padding-right: 0.75rem;
     }
@@ -408,12 +420,9 @@ def load_all_data():
     return df_s, df_i
 
 
-# ── Sidebar ───────────────────────────────────────────────────────────────────
-def build_sidebar(df_s, df_i):
-    with st.sidebar:
-        st.markdown("## JM² Shopping Dashboard")
-        st.markdown("---")
-
+# ── Filters ───────────────────────────────────────────────────────────────────
+def build_filters(df_s, df_i):
+    with st.popover("Filters", use_container_width=True):
         months = sorted(df_s["month"].unique(), reverse=True)
         sel_months = st.multiselect("Month", months, default=months[:1])
         if not sel_months:
@@ -680,7 +689,15 @@ def main():
         st.error("No data found.")
         st.stop()
 
-    sel_months, sel_stores, sel_cats = build_sidebar(df_s_all, df_i_all)
+    theme_col, filters_col = st.columns(2)
+    with theme_col:
+        st.toggle(
+            "Dark mode",
+            key="dark_mode",
+            help="Light mode is the default. Turn this on for the dark theme.",
+        )
+    with filters_col:
+        sel_months, sel_stores, sel_cats = build_filters(df_s_all, df_i_all)
 
     mask_s = df_s_all["month"].isin(sel_months) & df_s_all["store"].isin(sel_stores)
     mask_i = (df_i_all["month"].isin(sel_months) &
@@ -689,13 +706,7 @@ def main():
     df_s = df_s_all[mask_s]
     df_i = df_i_all[mask_i]
 
-    # ── Theme + masthead ───────────────────────────────────────────────────────
-    st.toggle(
-        "Dark mode",
-        key="dark_mode",
-        help="Light mode is the default. Turn this on for the dark theme.",
-    )
-
+    # ── Masthead ───────────────────────────────────────────────────────────────
     month_label = ", ".join(sel_months) if sel_months else "All months"
     st.image(str(HEADER_IMAGE), use_container_width=True)
     st.markdown(
