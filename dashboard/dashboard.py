@@ -91,7 +91,7 @@ html, body, [class*="css"] {
 [data-testid="stSidebar"] * { color: %(text)s !important; }
 [data-testid="stHeader"] { background: %(page)s; }
 [data-testid="stToolbar"] { color: %(text)s; }
-[data-testid="stPopover"] > button {
+[data-testid="stPopoverButton"] {
     width: 100%%;
     min-height: 42px;
     background: %(surface)s !important;
@@ -99,12 +99,12 @@ html, body, [class*="css"] {
     border: 1px solid %(border)s !important;
     border-radius: 10px !important;
 }
-[data-testid="stPopover"] > button:hover {
+[data-testid="stPopoverButton"]:hover {
     background: %(button_hover)s !important;
     border-color: #5b78e5 !important;
 }
-[data-testid="stPopover"] > button:focus,
-[data-testid="stPopover"] > button:focus-visible {
+[data-testid="stPopoverButton"]:focus,
+[data-testid="stPopoverButton"]:focus-visible {
     outline: none !important;
     border-color: #5b78e5 !important;
     box-shadow: 0 0 0 3px rgba(91, 120, 229, 0.16) !important;
