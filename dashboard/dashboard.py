@@ -103,6 +103,34 @@ html, body, [class*="css"] {
     background: %(button_hover)s !important;
     border-color: #5b78e5 !important;
 }
+[data-testid="stPopover"] > button:focus-visible {
+    outline: none !important;
+    border-color: #5b78e5 !important;
+    box-shadow: 0 0 0 3px rgba(91, 120, 229, 0.16) !important;
+}
+[data-testid="stPopoverBody"] {
+    background: %(surface)s !important;
+    color: %(text)s !important;
+    border: 1px solid %(border)s !important;
+    border-radius: 12px !important;
+    box-shadow: 0 16px 40px rgba(15, 23, 42, 0.18) !important;
+}
+[data-testid="stPopoverBody"] p,
+[data-testid="stPopoverBody"] label,
+[data-testid="stPopoverBody"] [data-testid="stWidgetLabel"] {
+    color: %(text)s !important;
+}
+[data-testid="stCheckbox"] label > div:first-of-type {
+    background: %(border)s !important;
+    border: 1px solid %(muted)s !important;
+}
+[data-testid="stCheckbox"] label > div:first-of-type > div {
+    background: %(surface)s !important;
+}
+[data-testid="stCheckbox"] label:has(input:checked) > div:first-of-type {
+    background: #5b78e5 !important;
+    border-color: #5b78e5 !important;
+}
 [data-testid="stAppViewContainer"] .block-container {
     max-width: 100%%;
     padding-left: clamp(0.75rem, 3vw, 3rem);
