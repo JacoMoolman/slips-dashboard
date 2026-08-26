@@ -429,9 +429,6 @@ def build_sidebar(df_s, df_i):
         if not sel_cats:
             sel_cats = cats
 
-        st.markdown("---")
-        st.caption("Add new data: see WORKFLOW.md")
-
     return sel_months, sel_stores, sel_cats
 
 
@@ -675,7 +672,7 @@ def generate_pdf(df_s, df_i, months):
 # ── Main ──────────────────────────────────────────────────────────────────────
 def main():
     if not DATA_DIR.exists() or not list(DATA_DIR.glob("*.json")):
-        st.error("No data found. See WORKFLOW.md — Step 3.")
+        st.error("No shopping data found.")
         st.stop()
 
     df_s_all, df_i_all = load_all_data()
