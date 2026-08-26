@@ -220,6 +220,60 @@
         {"description": "Cadbury Mint Crisp 80g", "price": 25.99, "category": "Snacks & Treats"}
       ],
       "month": "2026-06"
+    },
+    {
+      "source_file": "WhatsApp Image 2026-08-25 at 22.31.27 (1).jpeg",
+      "store": "Pick n Pay",
+      "location": "Cavendish, Claremont",
+      "date": "2026-06-28",
+      "total": 954.33,
+      "discounts": 59.00,
+      "items": [
+        {"description": "Trans System Grapes 650g", "price": 229.99, "category": "Produce"},
+        {"description": "Lip Balm Original x2", "price": 85.98, "category": "Health & Beauty"},
+        {"description": "Blue Crane Egg Noodles 300g", "price": 29.99, "category": "Pantry & Dry Goods"},
+        {"description": "Jacobs Kronung Instant Coffee 47g", "price": 76.99, "category": "Beverages"},
+        {"description": "Mild Dill Gherkins 780g", "price": 54.99, "category": "Pantry & Dry Goods"},
+        {"description": "No Name Popcorn", "price": 19.99, "category": "Snacks & Treats"},
+        {"description": "Streaky Bacon 200g", "price": 61.99, "category": "Meat & Deli"},
+        {"description": "PnP Chicken Breasts 4 Pack", "price": 51.06, "category": "Meat & Deli"},
+        {"description": "Organic Instant Coffee Latin America 200g", "price": 154.99, "category": "Beverages"},
+        {"description": "Traditional Feta Herbs", "price": 44.99, "category": "Dairy & Eggs"},
+        {"description": "White Cheddar", "price": 45.00, "category": "Dairy & Eggs"},
+        {"description": "Jumbo Eggs 6", "price": 24.99, "category": "Dairy & Eggs"},
+        {"description": "Ecofresh Low Fat Milk x2", "price": 71.98, "category": "Dairy & Eggs"},
+        {"description": "Carrier Bag 24L", "price": 1.40, "category": "Household"}
+      ],
+      "month": "2026-06"
+    },
+    {
+      "source_file": "WhatsApp Image 2026-08-25 at 22.31.28.jpeg",
+      "store": "Woolworths",
+      "location": "Cavendish Square, Claremont",
+      "date": "2026-06-28",
+      "total": 923.87,
+      "discounts": 20.00,
+      "items": [
+        {"description": "Free Range Beef Stroganoff", "price": 127.67, "category": "Meat & Deli"},
+        {"description": "Chicken Schnitzel", "price": 118.71, "category": "Meat & Deli"},
+        {"description": "Beef Lean Mince 1kg", "price": 129.99, "category": "Meat & Deli"},
+        {"description": "HS Muesli Rusk 800g", "price": 119.99, "category": "Pantry & Dry Goods"},
+        {"description": "Chunky Vegetable Soup 1kg", "price": 59.99, "category": "Pantry & Dry Goods"},
+        {"description": "Medium Carrots 500g", "price": 10.99, "category": "Produce"},
+        {"description": "Sweet Peppers 2s", "price": 34.99, "category": "Produce"},
+        {"description": "Loose Avocado", "price": 19.99, "category": "Produce"},
+        {"description": "Iceberg Lettuce Head", "price": 24.99, "category": "Produce"},
+        {"description": "Radish 150g", "price": 22.99, "category": "Produce"},
+        {"description": "Rosa Tomatoes 200g", "price": 28.99, "category": "Produce"},
+        {"description": "Bananas Large", "price": 33.99, "category": "Produce"},
+        {"description": "Sweet Potatoes 1kg", "price": 29.99, "category": "Produce"},
+        {"description": "Golden Delicious 1.5kg", "price": 36.99, "category": "Produce"},
+        {"description": "Nicola Potatoes 700g", "price": 24.99, "category": "Produce"},
+        {"description": "RM Broccoli", "price": 24.64, "category": "Produce"},
+        {"description": "Baby Marrows 350g", "price": 34.99, "category": "Produce"},
+        {"description": "Sliced Portabellini", "price": 38.99, "category": "Produce"}
+      ],
+      "month": "2026-06"
     }
   ]
 }

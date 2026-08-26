@@ -1,0 +1,394 @@
+{
+  "month": "2026-07",
+  "generated_at": "2026-08-26T00:00:00",
+  "slips": [
+    {
+      "source_file": "WhatsApp Image 2026-08-25 at 22.31.29.jpeg",
+      "store": "Woolworths",
+      "location": "Palmyra Road, Rondebosch",
+      "date": "2026-07-01",
+      "total": 380.34,
+      "discounts": 5.00,
+      "items": [
+        {"description": "Loose Pineapple", "price": 26.99, "category": "Produce"},
+        {"description": "Avocado 2 Punnet", "price": 48.99, "category": "Produce"},
+        {"description": "Organic Banana Bag", "price": 34.99, "category": "Produce"},
+        {"description": "Earl Grey Tea 40s", "price": 55.99, "category": "Beverages"},
+        {"description": "Haloumi Bell Pepper", "price": 103.40, "category": "Dairy & Eggs"},
+        {"description": "Diced Pumpkin 500g", "price": 32.99, "category": "Produce"},
+        {"description": "Clemengold Tray", "price": 76.99, "category": "Produce"}
+      ],
+      "month": "2026-07"
+    },
+    {
+      "source_file": "WhatsApp Image 2026-08-25 at 22.31.29 (1).jpeg",
+      "store": "Dis-Chem",
+      "location": "Claremont",
+      "date": "2026-07-03",
+      "total": 38.99,
+      "discounts": 0.00,
+      "items": [
+        {"description": "Safeguard Foam Hand Wash", "price": 38.99, "category": "Health & Beauty"}
+      ],
+      "month": "2026-07"
+    },
+    {
+      "source_file": "WhatsApp Image 2026-08-25 at 22.31.30.jpeg",
+      "store": "Woolworths",
+      "location": "Belvedere Road, Cape Town",
+      "date": "2026-07-03",
+      "total": 435.22,
+      "discounts": 0.00,
+      "items": [
+        {"description": "Low Fat Milk 2L", "price": 38.99, "category": "Dairy & Eggs"},
+        {"description": "Pumpkin Fritter 260g", "price": 52.99, "category": "Pantry & Dry Goods"},
+        {"description": "Pepper Steak Pie", "price": 119.99, "category": "Meat & Deli"},
+        {"description": "Pork Herb Bangers", "price": 74.99, "category": "Meat & Deli"},
+        {"description": "Chicken Schnitzel", "price": 105.27, "category": "Meat & Deli"},
+        {"description": "Lentil Barley Soup", "price": 42.99, "category": "Pantry & Dry Goods"}
+      ],
+      "month": "2026-07"
+    },
+    {
+      "source_file": "WhatsApp Image 2026-08-25 at 22.31.30.jpeg",
+      "store": "Woolworths",
+      "location": "Belvedere Road, Cape Town",
+      "date": "2026-07-03",
+      "total": 129.98,
+      "discounts": 64.99,
+      "items": [
+        {"description": "Chuckles Raisins 150g", "price": 43.32, "category": "Snacks & Treats"},
+        {"description": "Chuckles Raisins 150g", "price": 43.33, "category": "Snacks & Treats"},
+        {"description": "Chuckles Raisins 150g", "price": 43.33, "category": "Snacks & Treats"}
+      ],
+      "month": "2026-07"
+    },
+    {
+      "source_file": "WhatsApp Image 2026-08-25 at 22.31.31.jpeg",
+      "store": "Builders",
+      "location": "Kenilworth",
+      "date": "2026-07-04",
+      "total": 446.20,
+      "discounts": 0.00,
+      "items": [
+        {"description": "Lucco LED A70 15W Non-Dimmable E27 x5", "price": 445.00, "category": "Household"},
+        {"description": "Carrier Bag", "price": 1.20, "category": "Household"}
+      ],
+      "month": "2026-07"
+    },
+    {
+      "source_file": "WhatsApp Image 2026-08-25 at 22.31.16.jpeg",
+      "store": "Woolworths",
+      "location": "Palmyra Road, Rondebosch",
+      "date": "2026-07-06",
+      "total": 501.95,
+      "discounts": 0.00,
+      "items": [
+        {"description": "Bon Chretien Pears 750g", "price": 64.99, "category": "Produce"},
+        {"description": "Venison Droewors 400g", "price": 269.99, "category": "Meat & Deli"},
+        {"description": "Mango Slices 200g", "price": 114.99, "category": "Pantry & Dry Goods"},
+        {"description": "Cadbury Top Deck 80g", "price": 25.99, "category": "Snacks & Treats"},
+        {"description": "Cadbury Mint Crisp 80g", "price": 25.99, "category": "Snacks & Treats"}
+      ],
+      "month": "2026-07"
+    },
+    {
+      "source_file": "WhatsApp Image 2026-08-25 at 22.31.16.jpeg",
+      "store": "Woolworths",
+      "location": "Palmyra Road, Rondebosch",
+      "date": "2026-07-06",
+      "total": 720.87,
+      "discounts": 17.96,
+      "items": [
+        {"description": "Cheesesticks", "price": 89.99, "category": "Snacks & Treats"},
+        {"description": "Whole Peeled Tomatoes 400g x2", "price": 57.98, "category": "Pantry & Dry Goods"},
+        {"description": "Peeled & Diced Tomatoes 400g x2", "price": 45.00, "category": "Pantry & Dry Goods"},
+        {"description": "Tomato & Onion 400g x2", "price": 45.00, "category": "Pantry & Dry Goods"},
+        {"description": "Bananas Small", "price": 29.99, "category": "Produce"},
+        {"description": "Multiseed Wraps", "price": 38.99, "category": "Pantry & Dry Goods"},
+        {"description": "Golden Delicious 1.5kg", "price": 36.99, "category": "Produce"},
+        {"description": "Lemongold Punnet", "price": 31.99, "category": "Produce"},
+        {"description": "Sultanas 500g x2", "price": 123.98, "category": "Pantry & Dry Goods"},
+        {"description": "Raisins 500g x2", "price": 123.98, "category": "Pantry & Dry Goods"},
+        {"description": "Thick Slice Brown Bread", "price": 19.99, "category": "Pantry & Dry Goods"},
+        {"description": "Clemengold Tray", "price": 76.99, "category": "Produce"}
+      ],
+      "month": "2026-07"
+    },
+    {
+      "source_file": "WhatsApp Image 2026-08-25 at 22.31.21.jpeg",
+      "store": "Pick n Pay",
+      "location": "Claremont",
+      "date": "2026-07-07",
+      "total": 1004.49,
+      "discounts": 64.00,
+      "items": [
+        {"description": "I&J Light & Crispy Fish 500g + 100g", "price": 109.99, "category": "Meat & Deli"},
+        {"description": "I&J Crumbed Cape Hake 500g + 100g", "price": 109.99, "category": "Meat & Deli"},
+        {"description": "Ecofresh Low Fat Milk", "price": 35.99, "category": "Dairy & Eggs"},
+        {"description": "Orange Juice 1L", "price": 39.99, "category": "Beverages"},
+        {"description": "Long Life Fat Free Milk x2", "price": 37.98, "category": "Dairy & Eggs"},
+        {"description": "Refuse Bags on Roll Clear", "price": 78.99, "category": "Household"},
+        {"description": "Tomato & Onion Mix 410g x2", "price": 47.98, "category": "Pantry & Dry Goods"},
+        {"description": "Beans in Tomato 410g x4", "price": 67.96, "category": "Pantry & Dry Goods"},
+        {"description": "Real Mayonnaise 400g", "price": 59.99, "category": "Pantry & Dry Goods"},
+        {"description": "Light Medium Fat Spread 500g", "price": 44.99, "category": "Dairy & Eggs"},
+        {"description": "Basil Pesto 125g", "price": 55.99, "category": "Pantry & Dry Goods"},
+        {"description": "Staples 5000s", "price": 77.99, "category": "Household"},
+        {"description": "Sundried Tomato Pesto", "price": 56.43, "category": "Pantry & Dry Goods"},
+        {"description": "Mushroom Pesto 125g", "price": 55.99, "category": "Pantry & Dry Goods"},
+        {"description": "Tomato Paste Original 50g x4", "price": 35.96, "category": "Pantry & Dry Goods"},
+        {"description": "White Cheddar", "price": 45.30, "category": "Dairy & Eggs"},
+        {"description": "Fritos Tomato 120g", "price": 19.99, "category": "Snacks & Treats"},
+        {"description": "Simba Mexican Chilli 120g", "price": 22.99, "category": "Snacks & Treats"}
+      ],
+      "month": "2026-07"
+    },
+    {
+      "source_file": "WhatsApp Image 2026-08-25 at 22.31.20.jpeg",
+      "store": "Houw Hoek Farm Stall",
+      "location": "Grabouw",
+      "date": "2026-07-10",
+      "total": 188.50,
+      "discounts": 0.00,
+      "items": [
+        {"description": "Unitemized farm stall purchase", "price": 188.50, "category": "Other"}
+      ],
+      "month": "2026-07"
+    },
+    {
+      "source_file": "WhatsApp Image 2026-08-25 at 22.31.20 (1).jpeg",
+      "store": "Peregrine Farm Stall",
+      "location": "Grabouw",
+      "date": "2026-07-14",
+      "total": 342.00,
+      "discounts": 0.00,
+      "items": [
+        {"description": "Ham, Cheese & Tomato Sandwich", "price": 48.00, "category": "Meat & Deli"},
+        {"description": "Montagu Wild Mix Flavoured Cube", "price": 19.00, "category": "Snacks & Treats"},
+        {"description": "Ham & Cheese Wrap", "price": 58.00, "category": "Meat & Deli"},
+        {"description": "Quiche Lorraine", "price": 185.00, "category": "Meat & Deli"},
+        {"description": "Spinach & Feta Muffin", "price": 32.00, "category": "Snacks & Treats"}
+      ],
+      "month": "2026-07"
+    },
+    {
+      "source_file": "WhatsApp Image 2026-08-25 at 22.31.23.jpeg",
+      "store": "Woolworths",
+      "location": "Palmyra Road, Rondebosch",
+      "date": "2026-07-16",
+      "total": 982.72,
+      "discounts": 0.00,
+      "items": [
+        {"description": "HS Muesli Rusk 800g", "price": 119.99, "category": "Pantry & Dry Goods"},
+        {"description": "Chicken Schnitzel", "price": 133.91, "category": "Meat & Deli"},
+        {"description": "Lentil Barley Soup", "price": 42.99, "category": "Pantry & Dry Goods"},
+        {"description": "Red String Onions", "price": 62.99, "category": "Produce"},
+        {"description": "Sweet Potatoes 1kg", "price": 29.99, "category": "Produce"},
+        {"description": "Sliced Portabellini", "price": 38.99, "category": "Produce"},
+        {"description": "Avocado 2 Punnet", "price": 48.99, "category": "Produce"},
+        {"description": "Smoked Gypsy Ham 250g", "price": 89.99, "category": "Meat & Deli"},
+        {"description": "Spinach Rocket Watercress 100g", "price": 27.99, "category": "Produce"},
+        {"description": "Clemengold Tray", "price": 76.99, "category": "Produce"},
+        {"description": "Bananas Small", "price": 29.99, "category": "Produce"},
+        {"description": "Lemongold Bag", "price": 43.99, "category": "Produce"},
+        {"description": "Golden Delicious 1.5kg", "price": 36.99, "category": "Produce"},
+        {"description": "Medium Carrots 500g", "price": 11.99, "category": "Produce"},
+        {"description": "Baby Potatoes 700g", "price": 24.99, "category": "Produce"},
+        {"description": "Diced Pumpkin 500g", "price": 32.99, "category": "Produce"},
+        {"description": "Iceberg Lettuce Head", "price": 26.99, "category": "Produce"},
+        {"description": "Rosa Tomatoes 200g", "price": 28.99, "category": "Produce"},
+        {"description": "Marrows 800g", "price": 52.99, "category": "Produce"},
+        {"description": "Thick Slice Brown Bread", "price": 19.99, "category": "Pantry & Dry Goods"}
+      ],
+      "month": "2026-07"
+    },
+    {
+      "source_file": "WhatsApp Image 2026-08-25 at 22.31.24.jpeg",
+      "store": "Pick n Pay",
+      "location": "Claremont",
+      "date": "2026-07-18",
+      "total": 1351.63,
+      "discounts": 122.16,
+      "items": [
+        {"description": "Ecofresh Low Fat Milk x2", "price": 71.98, "category": "Dairy & Eggs"},
+        {"description": "Orange Juice 1L", "price": 39.99, "category": "Beverages"},
+        {"description": "Jacobs Kronung Instant Coffee 200g", "price": 209.99, "category": "Beverages"},
+        {"description": "Douwe Egberts Instant Coffee", "price": 175.00, "category": "Beverages"},
+        {"description": "Jungle Oats 1kg", "price": 56.99, "category": "Pantry & Dry Goods"},
+        {"description": "Jacobs Kronung Instant Coffee 47g", "price": 76.99, "category": "Beverages"},
+        {"description": "Brown Premium Bread 700g", "price": 17.99, "category": "Pantry & Dry Goods"},
+        {"description": "Free Range Eggs Large 18", "price": 69.99, "category": "Dairy & Eggs"},
+        {"description": "Skinless Chicken Fillet Breast", "price": 53.37, "category": "Meat & Deli"},
+        {"description": "Skinless Chicken Fillet Breast", "price": 49.29, "category": "Meat & Deli"},
+        {"description": "Skinless Chicken Fillet Breast", "price": 41.14, "category": "Meat & Deli"},
+        {"description": "PnP Traditional Feta Cheese", "price": 32.99, "category": "Dairy & Eggs"},
+        {"description": "Diced Bacon 200g", "price": 47.99, "category": "Meat & Deli"},
+        {"description": "White Gouda Slices", "price": 36.00, "category": "Dairy & Eggs"},
+        {"description": "Nat Nurture Hand Wash 500ml", "price": 69.99, "category": "Health & Beauty"},
+        {"description": "Ginger Hand Wash 500ml", "price": 69.99, "category": "Health & Beauty"},
+        {"description": "PnP Sliced Portabellini 250g", "price": 36.99, "category": "Produce"},
+        {"description": "Lindor Salted Caramel Stick 38g", "price": 33.99, "category": "Snacks & Treats"},
+        {"description": "Wilsons XXX Mints 26g", "price": 7.99, "category": "Snacks & Treats"},
+        {"description": "Les Grandes Hazelnut Chocolate 150g", "price": 119.99, "category": "Snacks & Treats"},
+        {"description": "Fatima's Puff Pastry 400g", "price": 32.99, "category": "Pantry & Dry Goods"}
+      ],
+      "month": "2026-07"
+    },
+    {
+      "source_file": "WhatsApp Image 2026-08-25 at 22.31.23 (1).jpeg",
+      "store": "Woolworths",
+      "location": "Palmyra Road, Rondebosch",
+      "date": "2026-07-21",
+      "total": 732.92,
+      "discounts": 12.98,
+      "items": [
+        {"description": "Smoked Gypsy Ham 250g", "price": 89.99, "category": "Meat & Deli"},
+        {"description": "Bacon SA Feta Pizza", "price": 129.99, "category": "Meat & Deli"},
+        {"description": "Ham Pineapple Pizza", "price": 129.99, "category": "Meat & Deli"},
+        {"description": "Golden Delicious 1.5kg", "price": 36.99, "category": "Produce"},
+        {"description": "Raisins 500g", "price": 61.99, "category": "Pantry & Dry Goods"},
+        {"description": "Raisins 500g", "price": 61.99, "category": "Pantry & Dry Goods"},
+        {"description": "Sultanas 500g", "price": 61.99, "category": "Pantry & Dry Goods"},
+        {"description": "Sultanas 500g", "price": 61.99, "category": "Pantry & Dry Goods"},
+        {"description": "Bananas Large", "price": 21.01, "category": "Produce"},
+        {"description": "Clemengold Tray", "price": 76.99, "category": "Produce"}
+      ],
+      "month": "2026-07"
+    },
+    {
+      "source_file": "WhatsApp Image 2026-08-25 at 22.31.25 (1).jpeg",
+      "store": "Checkers",
+      "location": "Cavendish Square",
+      "date": "2026-07-24",
+      "total": 75.98,
+      "discounts": 0.00,
+      "items": [
+        {"description": "Fair Cape Low Fat Eco Milk 2L x2", "price": 75.98, "category": "Dairy & Eggs"}
+      ],
+      "month": "2026-07"
+    },
+    {
+      "source_file": "WhatsApp Image 2026-08-25 at 22.31.26 (2).jpeg",
+      "store": "Dis-Chem",
+      "location": "Claremont",
+      "date": "2026-07-24",
+      "total": 741.93,
+      "discounts": 71.99,
+      "items": [
+        {"description": "Prescription Levy", "price": 379.98, "category": "Health & Beauty"},
+        {"description": "Strepsils Honey 24s x3", "price": 287.97, "category": "Health & Beauty"},
+        {"description": "Spitz Braai Flavoured Corn", "price": 43.99, "category": "Snacks & Treats"},
+        {"description": "Stillans Tummy Lozenges", "price": 29.99, "category": "Health & Beauty"}
+      ],
+      "month": "2026-07"
+    },
+    {
+      "source_file": "WhatsApp Image 2026-08-25 at 22.31.25.jpeg",
+      "store": "Pick n Pay",
+      "location": "Claremont",
+      "date": "2026-07-26",
+      "total": 678.86,
+      "discounts": 14.00,
+      "items": [
+        {"description": "Honey Squeeze 375g", "price": 58.99, "category": "Pantry & Dry Goods"},
+        {"description": "Mrs H.S. Ball's Chutney Hot 860g", "price": 67.99, "category": "Pantry & Dry Goods"},
+        {"description": "Mrs H.S. Ball's Chutney Original 860g", "price": 67.99, "category": "Pantry & Dry Goods"},
+        {"description": "Free Range Eggs Jumbo x2", "price": 57.98, "category": "Dairy & Eggs"},
+        {"description": "Date Slices Biscuits 350g", "price": 57.99, "category": "Snacks & Treats"},
+        {"description": "Five Roses Teabags Tagless", "price": 79.99, "category": "Beverages"},
+        {"description": "Ecofresh Low Fat Milk", "price": 35.99, "category": "Dairy & Eggs"},
+        {"description": "Orange Juice 1L", "price": 39.99, "category": "Beverages"},
+        {"description": "Fusilli Pasta 500g", "price": 35.99, "category": "Pantry & Dry Goods"},
+        {"description": "Tomato & Onion Mix x2", "price": 49.98, "category": "Pantry & Dry Goods"},
+        {"description": "Nat Nurture Hand Wash 500ml", "price": 62.99, "category": "Health & Beauty"},
+        {"description": "Ginger Hand Wash 500ml", "price": 62.99, "category": "Health & Beauty"}
+      ],
+      "month": "2026-07"
+    },
+    {
+      "source_file": "WhatsApp Image 2026-08-25 at 22.31.26 (3).jpeg",
+      "store": "Woolworths",
+      "location": "Palmyra Road, Rondebosch",
+      "date": "2026-07-26",
+      "total": 1629.07,
+      "discounts": 381.87,
+      "items": [
+        {"description": "2 Ply Toilet Paper 18 Pack x4", "price": 400.00, "category": "Household"},
+        {"description": "Guava Punnet", "price": 57.99, "category": "Produce"},
+        {"description": "Tuna Shredded in Vegetable Oil x8", "price": 200.00, "category": "Meat & Deli"},
+        {"description": "Nut and Seeds 450g", "price": 82.99, "category": "Pantry & Dry Goods"},
+        {"description": "HS Muesli Rusk 800g", "price": 104.99, "category": "Pantry & Dry Goods"},
+        {"description": "Butternut Soup 600g", "price": 39.87, "category": "Pantry & Dry Goods"},
+        {"description": "Vegetable Barley Soup 600g", "price": 39.87, "category": "Pantry & Dry Goods"},
+        {"description": "Biltong Soup 600g", "price": 65.24, "category": "Pantry & Dry Goods"},
+        {"description": "Smoked Gypsy Ham 250g", "price": 109.99, "category": "Meat & Deli"},
+        {"description": "Jubilee Ginger 150g", "price": 39.99, "category": "Pantry & Dry Goods"},
+        {"description": "Radish 150g", "price": 22.99, "category": "Produce"},
+        {"description": "Diced Pumpkin 500g", "price": 32.99, "category": "Produce"},
+        {"description": "Beef Lean Mince 1kg", "price": 129.99, "category": "Meat & Deli"},
+        {"description": "Thick Slice Brown Bread", "price": 19.99, "category": "Pantry & Dry Goods"},
+        {"description": "Thyme 20g", "price": 14.99, "category": "Produce"},
+        {"description": "Clemengold Tray x2", "price": 133.98, "category": "Produce"},
+        {"description": "Sliced Portabellini", "price": 38.99, "category": "Produce"},
+        {"description": "RM Broccoli", "price": 26.23, "category": "Produce"},
+        {"description": "Crunchies", "price": 67.99, "category": "Snacks & Treats"}
+      ],
+      "month": "2026-07"
+    },
+    {
+      "source_file": "WhatsApp Image 2026-08-25 at 22.31.27.jpeg",
+      "store": "Checkers",
+      "location": "Cavendish Square",
+      "date": "2026-07-29",
+      "total": 347.93,
+      "discounts": 45.00,
+      "items": [
+        {"description": "Fair Cape Low Fat Eco Milk 2L x2", "price": 75.98, "category": "Dairy & Eggs"},
+        {"description": "Dried Prunes 500g", "price": 84.99, "category": "Pantry & Dry Goods"},
+        {"description": "Dried Pears 200g", "price": 36.99, "category": "Pantry & Dry Goods"},
+        {"description": "Marmite 250g x3", "price": 149.97, "category": "Pantry & Dry Goods"}
+      ],
+      "month": "2026-07"
+    },
+    {
+      "source_file": "WhatsApp Image 2026-08-25 at 22.31.26 (4).jpeg",
+      "store": "Dis-Chem",
+      "location": "Claremont",
+      "date": "2026-07-29",
+      "total": 284.31,
+      "discounts": 45.64,
+      "items": [
+        {"description": "Lifestyle Food Chia Seeds 300g", "price": 93.15, "category": "Pantry & Dry Goods"},
+        {"description": "Labello Care Original 4.8g", "price": 40.99, "category": "Health & Beauty"},
+        {"description": "Health Connection Pumpkin Seed 200g", "price": 98.99, "category": "Pantry & Dry Goods"},
+        {"description": "Labello Care 4.8g", "price": 40.99, "category": "Health & Beauty"},
+        {"description": "Vaseline 7g", "price": 10.19, "category": "Health & Beauty"}
+      ],
+      "month": "2026-07"
+    },
+    {
+      "source_file": "WhatsApp Image 2026-08-25 at 22.31.28 (1).jpeg",
+      "store": "Woolworths",
+      "location": "Palmyra Road, Rondebosch",
+      "date": "2026-07-30",
+      "total": 468.88,
+      "discounts": 0.00,
+      "items": [
+        {"description": "Thick Slice Brown Bread", "price": 19.99, "category": "Pantry & Dry Goods"},
+        {"description": "Baby Potatoes 700g", "price": 24.99, "category": "Produce"},
+        {"description": "Medium Carrots 500g", "price": 11.99, "category": "Produce"},
+        {"description": "Bananas Small", "price": 29.99, "category": "Produce"},
+        {"description": "Rosa Tomatoes 200g", "price": 28.99, "category": "Produce"},
+        {"description": "Sweet Peppers", "price": 34.99, "category": "Produce"},
+        {"description": "Vaseline Original 250ml", "price": 49.99, "category": "Health & Beauty"},
+        {"description": "Marrows 800g", "price": 54.99, "category": "Produce"},
+        {"description": "Sliced Portabellini", "price": 38.99, "category": "Produce"},
+        {"description": "Zamli Dates", "price": 44.99, "category": "Pantry & Dry Goods"},
+        {"description": "Bon Chretien Pears 750g", "price": 64.99, "category": "Produce"},
+        {"description": "Streaky Bacon 250g", "price": 63.99, "category": "Meat & Deli"}
+      ],
+      "month": "2026-07"
+    }
+  ]
+}

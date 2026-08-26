@@ -24,26 +24,113 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
+# Light is deliberately the first-visit default, independent of the device's
+# system theme. Streamlit re-runs the script after the user changes the toggle,
+# so the palette and every Plotly chart update together.
+st.session_state.setdefault("dark_mode", False)
+
+THEMES = {
+    "light": {
+        "color_scheme": "light",
+        "page": "#f6f7fb",
+        "surface": "#ffffff",
+        "surface_alt": "#eef2f7",
+        "sidebar": "#edf1f6",
+        "text": "#111827",
+        "muted": "#475569",
+        "border": "#d6dce7",
+        "grid": "#dfe4ec",
+        "input": "#ffffff",
+        "button": "#ffffff",
+        "button_hover": "#e9eef6",
+    },
+    "dark": {
+        "color_scheme": "dark",
+        "page": "#0d0f1a",
+        "surface": "#171a2d",
+        "surface_alt": "#1e2340",
+        "sidebar": "#13162a",
+        "text": "#f4f6ff",
+        "muted": "#aeb8d4",
+        "border": "#2a3155",
+        "grid": "#2a3155",
+        "input": "#171a2d",
+        "button": "#1e2340",
+        "button_hover": "#2a3155",
+    },
+}
+
+ACTIVE_THEME = THEMES["dark" if st.session_state["dark_mode"] else "light"]
+
 # ── CSS ───────────────────────────────────────────────────────────────────────
 st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
-html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
+html, body, [class*="css"] {
+    color-scheme: %(color_scheme)s;
+    font-family: 'Inter', sans-serif;
+}
 
-[data-testid="stAppViewContainer"] { background: #0d0f1a; }
-[data-testid="stSidebar"] { background: #13162a; border-right: 1px solid #1e2340; }
-[data-testid="stSidebar"] * { color: #c8d0e7 !important; }
-[data-testid="stHeader"] { background: transparent; }
+[data-testid="stAppViewContainer"] {
+    background: %(page)s;
+    color: %(text)s;
+}
+[data-testid="stAppViewContainer"] h1,
+[data-testid="stAppViewContainer"] h2,
+[data-testid="stAppViewContainer"] h3,
+[data-testid="stAppViewContainer"] p,
+[data-testid="stAppViewContainer"] label,
+[data-testid="stAppViewContainer"] [data-testid="stCaptionContainer"],
+[data-testid="stAppViewContainer"] [data-testid="stMarkdownContainer"] {
+    color: %(text)s;
+}
+[data-testid="stSidebar"] {
+    background: %(sidebar)s;
+    border-right: 1px solid %(border)s;
+}
+[data-testid="stSidebar"] * { color: %(text)s !important; }
+[data-testid="stHeader"] { background: %(page)s; }
+[data-testid="stToolbar"] { color: %(text)s; }
 [data-testid="stAppViewContainer"] .block-container {
-    max-width: 100%;
+    max-width: 100%%;
     padding-left: clamp(0.75rem, 3vw, 3rem);
     padding-right: clamp(0.75rem, 3vw, 3rem);
 }
 .block-container { overflow-x: hidden; }
 
+hr { border-color: %(border)s !important; }
+
+[data-baseweb="select"] > div,
+[data-testid="stTextInput"] input,
+[data-testid="stPassword"] input {
+    background: %(input)s !important;
+    color: %(text)s !important;
+    border-color: %(border)s !important;
+}
+[data-baseweb="tag"] { background: %(surface_alt)s !important; }
+[data-baseweb="tag"] span { color: %(text)s !important; }
+button[kind="secondary"],
+[data-testid="stDownloadButton"] button,
+[data-testid="stFormSubmitButton"] button {
+    background: %(button)s !important;
+    color: %(text)s !important;
+    border-color: %(border)s !important;
+}
+button[kind="secondary"]:hover,
+[data-testid="stDownloadButton"] button:hover,
+[data-testid="stFormSubmitButton"] button:hover {
+    background: %(button_hover)s !important;
+    border-color: #5b78e5 !important;
+}
+[data-testid="stDataFrame"] {
+    border: 1px solid %(border)s;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
 .dashboard-title {
-    color: #f4f6ff;
+    color: %(text)s;
     font-size: clamp(2rem, 7vw, 3.2rem);
     font-weight: 700;
     line-height: 1.05;
@@ -52,7 +139,7 @@ html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
 }
 .dashboard-title span {
     display: block;
-    color: #c8d0e7;
+    color: %(muted)s;
     font-size: 0.78em;
     margin-top: 0.25rem;
 }
@@ -70,8 +157,8 @@ h1 {
 }
 .kpi-card {
     min-width: 0;
-    background: linear-gradient(135deg, #1a1d35 0%, #1e2340 100%);
-    border: 1px solid #2a2f55;
+    background: %(surface)s;
+    border: 1px solid %(border)s;
     border-radius: 12px;
     padding: 16px 14px;
     text-align: center;
@@ -91,14 +178,14 @@ h1 {
 .kpi-value {
     font-size: clamp(1.35rem, 6vw, 1.8rem);
     font-weight: 700;
-    color: #e8ecff;
+    color: %(text)s;
     line-height: 1.1;
     margin-bottom: 4px;
     overflow-wrap: anywhere;
 }
 .kpi-label {
     font-size: clamp(0.64rem, 2.6vw, 0.78rem);
-    color: #7a85aa;
+    color: %(muted)s;
     text-transform: uppercase;
     letter-spacing: 0.03em;
 }
@@ -106,17 +193,17 @@ h1 {
 .section-title {
     font-size: 0.85rem;
     font-weight: 600;
-    color: #7a85aa;
+    color: %(muted)s;
     text-transform: uppercase;
     letter-spacing: 0.08em;
     margin: 24px 0 8px;
     padding-bottom: 6px;
-    border-bottom: 1px solid #1e2340;
+    border-bottom: 1px solid %(border)s;
 }
 
 .chart-card {
-    background: #13162a;
-    border: 1px solid #1e2340;
+    background: %(surface)s;
+    border: 1px solid %(border)s;
     border-radius: 14px;
     padding: 16px;
 }
@@ -152,7 +239,7 @@ h1 {
     .kpi-grid { grid-template-columns: 1fr; }
 }
 </style>
-""", unsafe_allow_html=True)
+""" % ACTIVE_THEME, unsafe_allow_html=True)
 
 # ── Colour palette per category ───────────────────────────────────────────────
 CATEGORY_COLORS = {
@@ -177,24 +264,22 @@ STORE_COLORS = {
     "Clicks":       "#e74c3c",
 }
 
-PLOTLY_LAYOUT = dict(
-    paper_bgcolor="rgba(0,0,0,0)",
-    plot_bgcolor="rgba(0,0,0,0)",
-    font=dict(color="#c8d0e7", family="Inter"),
-    margin=dict(t=20, b=20, l=10, r=10),
-    dragmode=False,
-    hoverlabel=dict(
-        bgcolor="#ffffff",
-        bordercolor="#111827",
-        font=dict(color="#111827", size=13),
-    ),
-)
-
 INTERACTIVE_CHART_CONFIG = {"displayModeBar": False, "scrollZoom": False}
 
 
 def plotly_layout(**overrides):
-    layout = dict(PLOTLY_LAYOUT)
+    layout = dict(
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
+        font=dict(color=ACTIVE_THEME["text"], family="Inter"),
+        margin=dict(t=20, b=20, l=10, r=10),
+        dragmode=False,
+        hoverlabel=dict(
+            bgcolor=ACTIVE_THEME["surface"],
+            bordercolor=ACTIVE_THEME["border"],
+            font=dict(color=ACTIVE_THEME["text"], size=13),
+        ),
+    )
     layout.update(overrides)
     return layout
 
@@ -300,7 +385,7 @@ def chart_category_donut(df_i):
         labels=agg["category"],
         values=agg["price"],
         hole=0.55,
-        marker=dict(colors=colors, line=dict(color="#0d0f1a", width=2)),
+        marker=dict(colors=colors, line=dict(color=ACTIVE_THEME["page"], width=2)),
         textinfo="percent",
         textposition="inside",
         insidetextorientation="radial",
@@ -335,15 +420,15 @@ def chart_store_bar(df_s):
         marker=dict(color=colors, line=dict(width=0)),
         text=[f"R {v:,.0f}" for v in agg["total"]],
         textposition="outside",
-        textfont=dict(color="#c8d0e7"),
+        textfont=dict(color=ACTIVE_THEME["text"]),
         cliponaxis=False,
         hovertemplate="<b>%{y}</b><br>R %{x:,.2f}<extra></extra>",
     ))
     fig.update_layout(**plotly_layout(
         height=max(320, 34 * len(agg) + 130),
         margin=dict(t=10, b=42, l=8, r=80),
-        xaxis=dict(showgrid=True, gridcolor="#1e2340", tickformat=",.0f", title="Amount (R)", color="#7a85aa", range=[0, xmax * 1.25], fixedrange=True),
-        yaxis=dict(showgrid=False, color="#c8d0e7", automargin=True, fixedrange=True),
+        xaxis=dict(showgrid=True, gridcolor=ACTIVE_THEME["grid"], tickformat=",.0f", title="Amount (R)", color=ACTIVE_THEME["muted"], range=[0, xmax * 1.25], fixedrange=True),
+        yaxis=dict(showgrid=False, color=ACTIVE_THEME["text"], automargin=True, fixedrange=True),
     ))
     return fig
 
@@ -357,10 +442,10 @@ def chart_monthly_trend(df_s_all, sel_stores):
         x=agg["month"], y=agg["total"],
         mode="lines+markers+text",
         line=dict(color="#6c8aff", width=3),
-        marker=dict(size=9, color="#6c8aff", line=dict(color="#0d0f1a", width=2)),
+        marker=dict(size=9, color="#6c8aff", line=dict(color=ACTIVE_THEME["page"], width=2)),
         text=[f"R {v:,.0f}" for v in agg["total"]],
         textposition="top center",
-        textfont=dict(color="#c8d0e7", size=11),
+        textfont=dict(color=ACTIVE_THEME["text"], size=11),
         cliponaxis=False,
         fill="tozeroy",
         fillcolor="rgba(108,138,255,0.08)",
@@ -375,11 +460,11 @@ def chart_monthly_trend(df_s_all, sel_stores):
             categoryarray=agg["month"].tolist(),
             range=[-0.35, len(agg) - 0.65],
             showgrid=True,
-            gridcolor="#1e2340",
-            color="#7a85aa",
+            gridcolor=ACTIVE_THEME["grid"],
+            color=ACTIVE_THEME["muted"],
             fixedrange=True,
         ),
-        yaxis=dict(showgrid=True, gridcolor="#1e2340", tickformat=",.0f", title="R", color="#7a85aa", fixedrange=True),
+        yaxis=dict(showgrid=True, gridcolor=ACTIVE_THEME["grid"], tickformat=",.0f", title="R", color=ACTIVE_THEME["muted"], fixedrange=True),
     ))
     return fig
 
@@ -404,7 +489,7 @@ def chart_category_by_month(df_i):
             y=pivot[cat].tolist(),
             mode="lines+markers",
             line=dict(color=CATEGORY_COLORS.get(cat, "#7a85aa"), width=3),
-            marker=dict(size=8, color=CATEGORY_COLORS.get(cat, "#7a85aa"), line=dict(color="#0d0f1a", width=2)),
+            marker=dict(size=8, color=CATEGORY_COLORS.get(cat, "#7a85aa"), line=dict(color=ACTIVE_THEME["page"], width=2)),
             hovertemplate=f"<b>{cat}</b><br>%{{x}}<br>R %{{y:,.2f}}<extra></extra>",
         ))
 
@@ -416,11 +501,11 @@ def chart_category_by_month(df_i):
             categoryorder="array",
             categoryarray=months,
             showgrid=True,
-            gridcolor="#1e2340",
-            color="#c8d0e7",
+            gridcolor=ACTIVE_THEME["grid"],
+            color=ACTIVE_THEME["text"],
             fixedrange=True,
         ),
-        yaxis=dict(showgrid=True, gridcolor="#1e2340", tickformat=",.0f", title="R", color="#7a85aa", fixedrange=True),
+        yaxis=dict(showgrid=True, gridcolor=ACTIVE_THEME["grid"], tickformat=",.0f", title="R", color=ACTIVE_THEME["muted"], fixedrange=True),
         legend=dict(
             orientation="h",
             yanchor="bottom",
@@ -428,7 +513,7 @@ def chart_category_by_month(df_i):
             xanchor="left",
             x=0,
             bgcolor="rgba(0,0,0,0)",
-            bordercolor="#1e2340",
+            bordercolor=ACTIVE_THEME["border"],
             font=dict(size=10),
         ),
     ))
@@ -453,8 +538,8 @@ def chart_stacked_store_cat(df_i):
         barmode="stack",
         height=max(420, 36 * len(pivot) + 280),
         margin=dict(t=28, b=120, l=64, r=28),
-        xaxis=dict(showgrid=False, color="#c8d0e7", tickfont=dict(size=11), automargin=True, fixedrange=True),
-        yaxis=dict(showgrid=True, gridcolor="#1e2340", tickformat=",.0f", title="R", color="#7a85aa", fixedrange=True),
+        xaxis=dict(showgrid=False, color=ACTIVE_THEME["text"], tickfont=dict(size=11), automargin=True, fixedrange=True),
+        yaxis=dict(showgrid=True, gridcolor=ACTIVE_THEME["grid"], tickformat=",.0f", title="R", color=ACTIVE_THEME["muted"], fixedrange=True),
         legend=dict(
             orientation="h",
             yanchor="bottom",
@@ -462,7 +547,7 @@ def chart_stacked_store_cat(df_i):
             xanchor="left",
             x=0,
             bgcolor="rgba(0,0,0,0)",
-            bordercolor="#1e2340",
+            bordercolor=ACTIVE_THEME["border"],
             font=dict(size=10),
         ),
     ))
@@ -550,7 +635,13 @@ def main():
     df_s = df_s_all[mask_s]
     df_i = df_i_all[mask_i]
 
-    # ── Title ──────────────────────────────────────────────────────────────────
+    # ── Theme + title ──────────────────────────────────────────────────────────
+    st.toggle(
+        "Dark mode",
+        key="dark_mode",
+        help="Light mode is the default. Turn this on for the dark theme.",
+    )
+
     month_label = ", ".join(sel_months) if sel_months else "All months"
     st.markdown(f"# JM² Shopping Dashboard — {month_label}")
 
@@ -619,7 +710,7 @@ def main():
 
     # ── Items table ───────────────────────────────────────────────────────────
     st.markdown('<div class="section-title">All Items</div>', unsafe_allow_html=True)
-    search = st.text_input("", placeholder="Search items...", label_visibility="collapsed")
+    search = st.text_input("Search items", placeholder="Search items...", label_visibility="collapsed")
     tbl = df_i[["date", "store", "category", "description", "price"]].copy()
     tbl["date"] = tbl["date"].dt.strftime("%Y-%m-%d").fillna("")
     tbl = tbl.sort_values(["date", "store"], ascending=False)
