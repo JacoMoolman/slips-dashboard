@@ -267,6 +267,7 @@ INTERACTIVE_CHART_CONFIG = {"displayModeBar": False, "scrollZoom": False}
 
 def plotly_layout(**overrides):
     layout = dict(
+        template="none",
         paper_bgcolor="rgba(0,0,0,0)",
         plot_bgcolor="rgba(0,0,0,0)",
         font=dict(color=ACTIVE_THEME["text"], family="Inter"),
@@ -370,7 +371,7 @@ def chart_category_donut(df_i):
             xanchor="left",
             x=0,
             bgcolor="rgba(0,0,0,0)",
-            font=dict(size=10),
+            font=dict(color=ACTIVE_THEME["text"], size=10),
         ),
         uniformtext_minsize=10,
         uniformtext_mode="hide",
@@ -481,7 +482,7 @@ def chart_category_by_month(df_i):
             x=0,
             bgcolor="rgba(0,0,0,0)",
             bordercolor=ACTIVE_THEME["border"],
-            font=dict(size=10),
+            font=dict(color=ACTIVE_THEME["text"], size=10),
         ),
     ))
     return fig
@@ -515,7 +516,7 @@ def chart_stacked_store_cat(df_i):
             x=0,
             bgcolor="rgba(0,0,0,0)",
             bordercolor=ACTIVE_THEME["border"],
-            font=dict(size=10),
+            font=dict(color=ACTIVE_THEME["text"], size=10),
         ),
     ))
     return fig
@@ -648,13 +649,13 @@ def main():
     with col1:
         st.markdown("**By Category**")
         if not df_i.empty:
-            st.plotly_chart(chart_category_donut(df_i), use_container_width=True, config=INTERACTIVE_CHART_CONFIG)
+            st.plotly_chart(chart_category_donut(df_i), use_container_width=True, theme=None, config=INTERACTIVE_CHART_CONFIG)
         else:
             st.info("No item data for selection.")
     with col2:
         st.markdown("**By Store**")
         if not df_s.empty:
-            st.plotly_chart(chart_store_bar(df_s), use_container_width=True, config=INTERACTIVE_CHART_CONFIG)
+            st.plotly_chart(chart_store_bar(df_s), use_container_width=True, theme=None, config=INTERACTIVE_CHART_CONFIG)
         else:
             st.info("No store data.")
 
@@ -662,16 +663,16 @@ def main():
     all_months = sorted(df_s_all["month"].unique())
     if len(all_months) > 1:
         st.markdown('<div class="section-title">Monthly Trend</div>', unsafe_allow_html=True)
-        st.plotly_chart(chart_monthly_trend(df_s_all, sel_stores), use_container_width=True, config=INTERACTIVE_CHART_CONFIG)
+        st.plotly_chart(chart_monthly_trend(df_s_all, sel_stores), use_container_width=True, theme=None, config=INTERACTIVE_CHART_CONFIG)
 
     if not df_i.empty and len(sel_months) > 1:
         st.markdown('<div class="section-title">Category by Month</div>', unsafe_allow_html=True)
-        st.plotly_chart(chart_category_by_month(df_i), use_container_width=True, config=INTERACTIVE_CHART_CONFIG)
+        st.plotly_chart(chart_category_by_month(df_i), use_container_width=True, theme=None, config=INTERACTIVE_CHART_CONFIG)
 
     # ── Stacked bar: category by store ────────────────────────────────────────
     if not df_i.empty and df_i["store"].nunique() > 1:
         st.markdown('<div class="section-title">Category Mix by Store</div>', unsafe_allow_html=True)
-        st.plotly_chart(chart_stacked_store_cat(df_i), use_container_width=True, config=INTERACTIVE_CHART_CONFIG)
+        st.plotly_chart(chart_stacked_store_cat(df_i), use_container_width=True, theme=None, config=INTERACTIVE_CHART_CONFIG)
 
     # ── Items table ───────────────────────────────────────────────────────────
     st.markdown('<div class="section-title">All Items</div>', unsafe_allow_html=True)
