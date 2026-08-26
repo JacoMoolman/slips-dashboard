@@ -20,15 +20,9 @@ Main file path: dashboard/dashboard.py
 
 Streamlit app URL: `https://slips-dashboard-jaco.streamlit.app/`
 
-## Streamlit Secrets
+## Access
 
-The dashboard is password-gated. In Streamlit Cloud, open the app settings and add this secret:
-
-```toml
-DASHBOARD_PASSWORD = "<set this in Streamlit Cloud>"
-```
-
-The public GitHub repo should not contain `.streamlit/secrets.toml`.
+The dashboard is public and opens without a password or PIN.
 
 ## What Was Uploaded
 

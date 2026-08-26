@@ -5,8 +5,6 @@ Run: streamlit run G:/SLIPS/dashboard/dashboard.py
 
 import json
 import io
-import hmac
-import os
 from pathlib import Path
 from datetime import datetime
 
@@ -283,37 +281,6 @@ def plotly_layout(**overrides):
     layout.update(overrides)
     return layout
 
-
-def get_dashboard_password():
-    env_password = os.environ.get("DASHBOARD_PASSWORD")
-    if env_password:
-        return env_password
-    try:
-        return st.secrets.get("DASHBOARD_PASSWORD", "1068")
-    except Exception:
-        return "1068"
-
-
-def require_password():
-    if st.session_state.get("dashboard_authenticated"):
-        return
-
-    expected_password = get_dashboard_password()
-    st.markdown("# JM² Shopping Dashboard")
-    st.caption("Enter the dashboard password to continue.")
-
-    with st.form("password_gate"):
-        entered_password = st.text_input("Password", type="password")
-        submitted = st.form_submit_button("Unlock")
-
-    if submitted:
-        if hmac.compare_digest(entered_password, str(expected_password)):
-            st.session_state["dashboard_authenticated"] = True
-            st.rerun()
-        else:
-            st.error("Incorrect password.")
-
-    st.stop()
 
 # ── Data loading ──────────────────────────────────────────────────────────────
 @st.cache_data
@@ -615,8 +582,6 @@ def generate_pdf(df_s, df_i, months):
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 def main():
-    require_password()
-
     if not DATA_DIR.exists() or not list(DATA_DIR.glob("*.json")):
         st.error("No data found. See WORKFLOW.md — Step 3.")
         st.stop()
