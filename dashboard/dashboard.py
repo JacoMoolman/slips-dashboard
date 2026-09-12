@@ -745,6 +745,11 @@ def main():
     )
 
     # ── KPI cards ─────────────────────────────────────────────────────────────
+    for selected_month in sel_months:
+        month_data = json.loads((DATA_DIR / f"{selected_month}.json").read_text(encoding="utf-8"))
+        if month_data.get("import_status") == "partial":
+            st.warning(f"{selected_month}: {month_data['import_note']}")
+
     total_spend  = df_s["total"].sum()
     total_trips  = len(df_s)
     total_items  = len(df_i)

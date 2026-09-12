@@ -1,6 +1,6 @@
 {
   "month": "2026-07",
-  "generated_at": "2026-08-26T00:00:00",
+  "generated_at": "2026-09-12T09:48:03.266797+00:00",
   "slips": [
     {
       "source_file": "WhatsApp Image 2026-08-25 at 22.31.29.jpeg",
@@ -387,6 +387,42 @@
         {"description": "Zamli Dates", "price": 44.99, "category": "Pantry & Dry Goods"},
         {"description": "Bon Chretien Pears 750g", "price": 64.99, "category": "Produce"},
         {"description": "Streaky Bacon 250g", "price": 63.99, "category": "Meat & Deli"}
+      ],
+      "month": "2026-07"
+    },
+    {
+      "source_file": "WhatsApp Image 2026-09-03 at 21.38.48 (3).jpeg",
+      "store": "Woodlands Mica Hardware",
+      "location": "194 Imam Haron Road, Claremont",
+      "date": "2026-07-19",
+      "total": 423.03,
+      "discounts": 0.0,
+      "items": [
+        {
+          "description": "Plywood 4mm 600x1200 x2 (269.57 excl VAT)",
+          "price": 310.0,
+          "category": "Household"
+        },
+        {
+          "description": "Brass butt hinge 38mm (50.44 excl VAT)",
+          "price": 58.01,
+          "category": "Household"
+        },
+        {
+          "description": "Corner bracket 25x25mm (10.44 excl VAT)",
+          "price": 12.01,
+          "category": "Household"
+        },
+        {
+          "description": "Corner bracket 25x25mm (10.44 excl VAT)",
+          "price": 12.01,
+          "category": "Household"
+        },
+        {
+          "description": "Viva brush 38mm (26.96 excl VAT)",
+          "price": 31.0,
+          "category": "Household"
+        }
       ],
       "month": "2026-07"
     }
