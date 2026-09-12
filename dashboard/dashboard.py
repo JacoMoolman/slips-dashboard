@@ -749,6 +749,8 @@ def main():
         month_data = json.loads((DATA_DIR / f"{selected_month}.json").read_text(encoding="utf-8"))
         if month_data.get("import_status") == "partial":
             st.warning(f"{selected_month}: {month_data['import_note']}")
+        elif month_data.get("import_status") == "complete_with_estimates":
+            st.info(f"{selected_month}: {month_data['import_note']}")
 
     total_spend  = df_s["total"].sum()
     total_trips  = len(df_s)

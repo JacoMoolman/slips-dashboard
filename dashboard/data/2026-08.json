@@ -591,6 +591,59 @@
       "month": "2026-08"
     },
     {
+      "source_file": "WhatsApp Image 2026-09-03 at 21.38.52.jpeg",
+      "store": "Stodels",
+      "location": "Kenilworth",
+      "date": "2026-08-11",
+      "month": "2026-08",
+      "total": 680.93,
+      "discounts": 248.99,
+      "items": [
+        {
+          "description": "General compost x2 at R24.49",
+          "price": 48.98,
+          "category": "Household"
+        },
+        {
+          "description": "Bonemeal fertilizer 5kg",
+          "price": 104.99,
+          "category": "Household"
+        },
+        {
+          "description": "Multibooster 1kg",
+          "price": 90.99,
+          "category": "Household"
+        },
+        {
+          "description": "Hortisol 200ml",
+          "price": 83.99,
+          "category": "Household"
+        },
+        {
+          "description": "Amaryllis",
+          "price": 146.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Fuchsia 21cm",
+          "price": 104.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Free August gift",
+          "price": 0,
+          "category": "Other"
+        },
+        {
+          "description": "User-approved estimate adjustment (R100 above corrected item sum)",
+          "price": 100.0,
+          "category": "Other"
+        }
+      ],
+      "verification_status": "user_approved_estimate",
+      "estimate_note": "User instructed use the previously quoted higher amount R680.93 versus apparent invoice total R580.95. The earlier item sum R680.93 was an arithmetic error: the provisional items actually total R580.93. An explicit R100 estimate adjustment preserves the selected higher amount. The recorded total exceeds the apparent invoice by R99.98. Prices and savings remain estimated."
+    },
+    {
       "source_file": "WhatsApp Image 2026-09-03 at 21.38.48.jpeg",
       "store": "Michaels Kitchen & Bar",
       "location": "88 Campground Road, Rondebosch",
@@ -1076,6 +1129,179 @@
       "month": "2026-08"
     },
     {
+      "source_file": "WhatsApp Image 2026-09-03 at 21.38.44.jpeg",
+      "store": "Woolworths",
+      "location": "Palmyra Road, Rondebosch",
+      "date": "2026-08-27",
+      "month": "2026-08",
+      "total": 1645.58,
+      "discounts": 155.94,
+      "items": [
+        {
+          "description": "Two-ply toilet paper 18-pack",
+          "price": 100.0,
+          "category": "Household"
+        },
+        {
+          "description": "Two-ply toilet paper 18-pack",
+          "price": 100.0,
+          "category": "Household"
+        },
+        {
+          "description": "Fiesta roses 40cm",
+          "price": 114.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Kuhne sweet and sour gherkins (online price estimate)",
+          "price": 137.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Shredded tuna vegetable oil",
+          "price": 25.0,
+          "category": "Meat & Deli"
+        },
+        {
+          "description": "Shredded tuna vegetable oil",
+          "price": 25.0,
+          "category": "Meat & Deli"
+        },
+        {
+          "description": "Shredded tuna vegetable oil",
+          "price": 25.0,
+          "category": "Meat & Deli"
+        },
+        {
+          "description": "Shredded tuna vegetable oil",
+          "price": 25.0,
+          "category": "Meat & Deli"
+        },
+        {
+          "description": "Bon Chretien pears 250g",
+          "price": 64.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Red string onions",
+          "price": 62.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Brussels sprouts 300g",
+          "price": 6.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Two sweet peppers",
+          "price": 34.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Medium carrots 500g",
+          "price": 11.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Pitted Medjool dates",
+          "price": 37.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Sliced portabellini mushrooms",
+          "price": 38.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Sultanas 500g",
+          "price": 61.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Haloumi bell pepper",
+          "price": 83.61,
+          "category": "Dairy & Eggs"
+        },
+        {
+          "description": "Thyme 20g",
+          "price": 14.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Baby beetroot",
+          "price": 19.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Marrows 800g",
+          "price": 54.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Rosa tomatoes 200g",
+          "price": 28.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Avocado two punnet",
+          "price": 48.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Radish 150g",
+          "price": 24.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Bananas small",
+          "price": 34.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Loose garlic 0.116kg at 149.99/kg",
+          "price": 17.4,
+          "category": "Produce"
+        },
+        {
+          "description": "Washed baby spinach",
+          "price": 27.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Mango strips 100g",
+          "price": 74.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Thick slice brown bread",
+          "price": 19.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Beef lean mince 1kg",
+          "price": 139.99,
+          "category": "Meat & Deli"
+        },
+        {
+          "description": "Guava 6/9 punnet",
+          "price": 57.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Clemengold tray",
+          "price": 79.99,
+          "category": "Produce"
+        },
+        {
+          "description": "User-approved estimate adjustment (unresolved receipt difference)",
+          "price": 41.8,
+          "category": "Other"
+        }
+      ],
+      "verification_status": "user_approved_estimate",
+      "estimate_note": "User instructed use the higher amount in the last comparison: R1645.58 versus provisional item sum R1603.78. An explicit R41.80 estimate adjustment is included in Other. Receipt amounts and discounts are not independently reconciled."
+    },
+    {
       "source_file": "WhatsApp Image 2026-09-03 at 21.38.38.jpeg",
       "store": "Pick n Pay",
       "location": "Claremont",
@@ -1256,7 +1482,7 @@
       "month": "2026-08"
     }
   ],
-  "generated_at": "2026-09-12T09:48:03.322797+00:00",
-  "import_status": "partial",
-  "import_note": "29 verified receipts. Two supplied August receipts (Woolworths 27 August and Stodels 11 August) are pending legibility and reconciliation; their amounts are excluded. Invoice totals include R0.16 cash rounding that was not paid."
+  "generated_at": "2026-09-12T10:30:10.383121+00:00",
+  "import_status": "complete_with_estimates",
+  "import_note": "All supplied receipts processed: 29 verified August receipts and 2 user-approved estimates. Estimates: Woolworths 27 August R1,645.58 (including an explicit R41.80 adjustment) and Stodels 11 August R680.93 (including an explicit R100 adjustment above its corrected item sum). These two receipts did not reconcile; the user selected the higher amounts. Invoice totals include R0.16 cash rounding that was not paid."
 }
