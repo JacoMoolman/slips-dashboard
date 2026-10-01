@@ -446,12 +446,12 @@
         {
           "description": "Jacobs Kronung Instant Coffee 200g",
           "price": 159.99,
-          "category": "Beverages"
+          "category": "Tea & coffee"
         },
         {
           "description": "Floor Cleaner Pine",
           "price": 35.99,
-          "category": "Household"
+          "category": "Cleaning products"
         },
         {
           "description": "Orange Juice 300ml x2",
@@ -694,7 +694,7 @@
         {
           "description": "Basin Plug Rubber",
           "price": 32.99,
-          "category": "Household"
+          "category": "Bathroom and toilet"
         },
         {
           "description": "Chutney Hot 470g",
@@ -796,27 +796,27 @@
         {
           "description": "Cement Retainer Block S/Stone Uni x6",
           "price": 269.94,
-          "category": "Household"
+          "category": "Gardening"
         },
         {
           "description": "Efekto Zero Snail Bait 1kg",
           "price": 199.99,
-          "category": "Household"
+          "category": "Gardening"
         },
         {
           "description": "DG General Compost 30dm x4",
           "price": 159.96,
-          "category": "Household"
+          "category": "Gardening"
         },
         {
           "description": "Tritonias Mix Bulbs",
           "price": 99.99,
-          "category": "Household"
+          "category": "Gardening"
         },
         {
           "description": "Dutch Iris Mixed Bulbs",
           "price": 114.99,
-          "category": "Household"
+          "category": "Gardening"
         },
         {
           "description": "Free Gift May",
@@ -884,7 +884,7 @@
         {
           "description": "Jacobs Kronung Instant Coffee 200g",
           "price": 159.99,
-          "category": "Beverages"
+          "category": "Tea & coffee"
         },
         {
           "description": "Jungle Oats 1kg",
@@ -899,7 +899,7 @@
         {
           "description": "Five Roses Teabags Tagless",
           "price": 73.99,
-          "category": "Beverages"
+          "category": "Tea & coffee"
         },
         {
           "description": "Pork Sausage 500g",
@@ -909,7 +909,7 @@
         {
           "description": "2pc Bath Plug Rubber",
           "price": 37.99,
-          "category": "Household"
+          "category": "Bathroom and toilet"
         },
         {
           "description": "FOTE Pine Kernel 100g",
@@ -919,7 +919,7 @@
         {
           "description": "Scrubbing Brush",
           "price": 59.99,
-          "category": "Household"
+          "category": "Cleaning products"
         },
         {
           "description": "White Cheddar",
@@ -1045,7 +1045,7 @@
         {
           "description": "Jacobs Kronung 95g",
           "price": 119.99,
-          "category": "Beverages"
+          "category": "Tea & coffee"
         },
         {
           "description": "Bananas Large",
@@ -1187,42 +1187,42 @@
         {
           "description": "Mouthwash Teeth & Gum Protect",
           "price": 84.99,
-          "category": "Health & Beauty"
+          "category": "Bathroom and toilet"
         },
         {
           "description": "Good Stuff Hand Wash Bee Natural 500ml",
           "price": 51.99,
-          "category": "Health & Beauty"
+          "category": "Bathroom and toilet"
         },
         {
           "description": "Good Stuff Hand Wash In Good Hands 500ml",
           "price": 51.99,
-          "category": "Health & Beauty"
+          "category": "Bathroom and toilet"
         },
         {
           "description": "Mouthwash Teeth & Gum Protect",
           "price": 129.99,
-          "category": "Health & Beauty"
+          "category": "Bathroom and toilet"
         },
         {
           "description": "Nat Nurture Hand Wash 500ml",
           "price": 51.99,
-          "category": "Health & Beauty"
+          "category": "Bathroom and toilet"
         },
         {
           "description": "Hygiene Herbal Soap 175g",
           "price": 15.99,
-          "category": "Health & Beauty"
+          "category": "Bathroom and toilet"
         },
         {
           "description": "Fresh Bar Soap 175g",
           "price": 15.99,
-          "category": "Health & Beauty"
+          "category": "Bathroom and toilet"
         },
         {
           "description": "Hygiene Active Soap 175g",
           "price": 15.99,
-          "category": "Health & Beauty"
+          "category": "Bathroom and toilet"
         },
         {
           "description": "Gemmerkat Ginger Beer 2L",

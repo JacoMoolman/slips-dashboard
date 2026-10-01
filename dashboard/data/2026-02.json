@@ -38,7 +38,7 @@
         {"description": "Pineapples Queen", "price": 24.99, "category": "Fruit"},
         {"description": "EcoFresh Low Fat Milk x2", "price": 65.98, "category": "Dairy & Eggs"},
         {"description": "All Bran Flakes 750g", "price": 64.99, "category": "Pantry & Dry Goods"},
-        {"description": "PnP 2Ply Tissues 180ea", "price": 33.99, "category": "Household"},
+        {"description": "PnP 2Ply Tissues 180ea", "price": 33.99, "category": "Bathroom and toilet"},
         {"description": "Round Bin Liner Small", "price": 34.99, "category": "Household"},
         {"description": "White Cheddar pk", "price": 35.09, "category": "Dairy & Eggs"},
         {"description": "Petroleum Jelly Baby Soft 50ml", "price": 15.99, "category": "Health & Beauty"},
@@ -57,8 +57,8 @@
       "discounts": 50.00,
       "items": [
         {"description": "Miami Pickle 760g", "price": 44.99, "category": "Pantry & Dry Goods"},
-        {"description": "Jacobs Kronung Coffee 200g", "price": 159.99, "category": "Beverages"},
-        {"description": "Bonnie Bio Herbal Tea 20s x2", "price": 179.98, "category": "Beverages"}
+        {"description": "Jacobs Kronung Coffee 200g", "price": 159.99, "category": "Tea & coffee"},
+        {"description": "Bonnie Bio Herbal Tea 20s x2", "price": 179.98, "category": "Tea & coffee"}
       ]
     },
     {
@@ -296,7 +296,7 @@
       "total": 253.95,
       "discounts": 0.00,
       "items": [
-        {"description": "Earl Grey Tea 40s", "price": 54.99, "category": "Beverages"},
+        {"description": "Earl Grey Tea 40s", "price": 54.99, "category": "Tea & coffee"},
         {"description": "Iceberg Lettuce Head", "price": 21.99, "category": "Vegetables"},
         {"description": "Baby Spinach 100g", "price": 18.99, "category": "Vegetables"},
         {"description": "Baby Corn 100g", "price": 31.99, "category": "Vegetables"},
@@ -315,7 +315,7 @@
         {"description": "L&CC Crumbed Hake Fillet 500g+100g", "price": 94.99, "category": "Meat & Deli"},
         {"description": "28 Day Thick Porterhouse Steak pk", "price": 165.29, "category": "Meat & Deli"},
         {"description": "PnP Peanut Butter Smooth 800g", "price": 79.99, "category": "Pantry & Dry Goods"},
-        {"description": "Douwe Egberts Instant Coffee", "price": 186.99, "category": "Beverages"},
+        {"description": "Douwe Egberts Instant Coffee", "price": 186.99, "category": "Tea & coffee"},
         {"description": "Potato Gnocchi 500g x2", "price": 119.98, "category": "Pantry & Dry Goods"}
       ]
     },
@@ -326,7 +326,7 @@
       "total": 126.79,
       "discounts": 37.18,
       "items": [
-        {"description": "Dove Soap 4x90g White", "price": 76.49, "category": "Health & Beauty"},
+        {"description": "Dove Soap 4x90g White", "price": 76.49, "category": "Bathroom and toilet"},
         {"description": "Panado Tabs 24's x2", "price": 50.30, "category": "Health & Beauty"}
       ]
     },
@@ -337,8 +337,8 @@
       "total": 1007.34,
       "discounts": 104.98,
       "items": [
-        {"description": "2 Ply Toilet Paper 18pk", "price": 115.00, "category": "Household"},
-        {"description": "2 Ply Toilet Paper 18pk", "price": 115.00, "category": "Household"},
+        {"description": "2 Ply Toilet Paper 18pk", "price": 115.00, "category": "Bathroom and toilet"},
+        {"description": "2 Ply Toilet Paper 18pk", "price": 115.00, "category": "Bathroom and toilet"},
         {"description": "Sweet Pots 2kg", "price": 50.00, "category": "Vegetables"},
         {"description": "Loose Butternut", "price": 25.49, "category": "Vegetables"},
         {"description": "Marrows 800g", "price": 49.99, "category": "Vegetables"},

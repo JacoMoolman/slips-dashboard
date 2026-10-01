@@ -47,7 +47,7 @@
         {
           "description": "Large pedal bags 50% plant-based 25-pack",
           "price": 116.99,
-          "category": "Household"
+          "category": "Cleaning products"
         },
         {
           "description": "White cheddar (36.00 less 6.72)",
@@ -72,7 +72,7 @@
         {
           "description": "Dishwasher tablets 100-pack",
           "price": 309.99,
-          "category": "Household"
+          "category": "Cleaning products"
         },
         {
           "description": "Carrier bag 24L x2",
@@ -197,12 +197,12 @@
         {
           "description": "Aluminium rivets 4.8x12 100-pack (61.74 plus VAT 9.26)",
           "price": 71.0,
-          "category": "Household"
+          "category": "Hardware store"
         },
         {
           "description": "Pop riveter 250mm (177.39 plus VAT 26.61)",
           "price": 204.0,
-          "category": "Household"
+          "category": "Hardware store"
         }
       ],
       "month": "2026-08"
@@ -218,32 +218,32 @@
         {
           "description": "Flying Fish lemon 6x330ml",
           "price": 99.99,
-          "category": "Beverages"
+          "category": "Alcohol"
         },
         {
           "description": "Heineken lager 6x330ml",
           "price": 109.99,
-          "category": "Beverages"
+          "category": "Alcohol"
         },
         {
           "description": "Klipdrift and cola 6x440ml",
           "price": 164.99,
-          "category": "Beverages"
+          "category": "Alcohol"
         },
         {
           "description": "Savanna dry cider 6x330ml",
           "price": 119.99,
-          "category": "Beverages"
+          "category": "Alcohol"
         },
         {
           "description": "Striped Horse lager 6x330ml",
           "price": 99.99,
-          "category": "Beverages"
+          "category": "Alcohol"
         },
         {
           "description": "Windhoek lager 6x440ml",
           "price": 119.99,
-          "category": "Beverages"
+          "category": "Alcohol"
         }
       ],
       "month": "2026-08"
@@ -274,7 +274,7 @@
         {
           "description": "Pedal bin bag 11-12L 20-pack",
           "price": 84.99,
-          "category": "Household"
+          "category": "Cleaning products"
         },
         {
           "description": "A5 linen journal with buckle",
@@ -424,12 +424,12 @@
         {
           "description": "Oven and braai heavy duty cleaner 400ml",
           "price": 47.99,
-          "category": "Household"
+          "category": "Cleaning products"
         },
         {
           "description": "Jacobs Kronung instant coffee 200g",
           "price": 219.99,
-          "category": "Beverages"
+          "category": "Tea & coffee"
         },
         {
           "description": "Free range eggs 6-pack x2",
@@ -459,7 +459,7 @@
         {
           "description": "Jacobs Kronung instant coffee 47g",
           "price": 74.99,
-          "category": "Beverages"
+          "category": "Tea & coffee"
         },
         {
           "description": "Today puff pastry 400g",
@@ -560,7 +560,7 @@
         {
           "description": "Earl Grey tea 40s",
           "price": 55.99,
-          "category": "Beverages"
+          "category": "Tea & coffee"
         },
         {
           "description": "Sultanas 500g",
@@ -602,32 +602,32 @@
         {
           "description": "General compost x2 at R24.49",
           "price": 48.98,
-          "category": "Household"
+          "category": "Gardening"
         },
         {
           "description": "Bonemeal fertilizer 5kg",
           "price": 104.99,
-          "category": "Household"
+          "category": "Gardening"
         },
         {
           "description": "Multibooster 1kg",
           "price": 90.99,
-          "category": "Household"
+          "category": "Gardening"
         },
         {
           "description": "Hortisol 200ml",
           "price": 83.99,
-          "category": "Household"
+          "category": "Gardening"
         },
         {
           "description": "Amaryllis",
           "price": 146.99,
-          "category": "Produce"
+          "category": "Gardening"
         },
         {
           "description": "Fuchsia 21cm",
           "price": 104.99,
-          "category": "Produce"
+          "category": "Gardening"
         },
         {
           "description": "Free August gift",
@@ -654,7 +654,7 @@
         {
           "description": "Restaurant purchase (payment slip only)",
           "price": 570.0,
-          "category": "Other"
+          "category": "Eating out"
         }
       ],
       "month": "2026-08"
@@ -695,7 +695,7 @@
         {
           "description": "Air freshener clean linen 300ml x2",
           "price": 93.98,
-          "category": "Household"
+          "category": "Cleaning products"
         },
         {
           "description": "I&J haddock medallion 450g x2",
@@ -721,7 +721,7 @@
         {
           "description": "Skip auto liquid 1.5L",
           "price": 114.99,
-          "category": "Household"
+          "category": "Cleaning products"
         },
         {
           "description": "Marrows 800g",
@@ -959,12 +959,12 @@
         {
           "description": "Pedal bin bags 11-12L 20-pack x3",
           "price": 254.97,
-          "category": "Household"
+          "category": "Cleaning products"
         },
         {
           "description": "Trigger sprayer 1L",
           "price": 59.99,
-          "category": "Household"
+          "category": "Cleaning products"
         },
         {
           "description": "Skinless chicken breast fillets",
@@ -1000,7 +1000,7 @@
         {
           "description": "Restaurant purchase (payment slip only)",
           "price": 360.0,
-          "category": "Other"
+          "category": "Eating out"
         }
       ],
       "month": "2026-08"
@@ -1021,7 +1021,7 @@
         {
           "description": "Douwe Egberts Brazil coffee 200g (229.99 less 50.00)",
           "price": 179.99,
-          "category": "Beverages"
+          "category": "Tea & coffee"
         },
         {
           "description": "Fair Cape low fat milk 2L",
@@ -1052,22 +1052,22 @@
         {
           "description": "Home Butler kitchen cleaner",
           "price": 46.99,
-          "category": "Household"
+          "category": "Cleaning products"
         },
         {
           "description": "Mr Sheen CleenGreen 1L",
           "price": 54.99,
-          "category": "Household"
+          "category": "Cleaning products"
         },
         {
           "description": "Handy Andy lemon 750ml (32.99 less 6.60)",
           "price": 26.39,
-          "category": "Household"
+          "category": "Cleaning products"
         },
         {
           "description": "Mr Sheen tile cleaner 1L",
           "price": 39.99,
-          "category": "Household"
+          "category": "Cleaning products"
         },
         {
           "description": "Bioplus energy gummies x2 (49.98 less 18.00)",
@@ -1140,12 +1140,12 @@
         {
           "description": "Two-ply toilet paper 18-pack",
           "price": 100.0,
-          "category": "Household"
+          "category": "Bathroom and toilet"
         },
         {
           "description": "Two-ply toilet paper 18-pack",
           "price": 100.0,
-          "category": "Household"
+          "category": "Bathroom and toilet"
         },
         {
           "description": "Fiesta roses 40cm",

@@ -1,0 +1,1373 @@
+{
+  "month": "2026-09",
+  "generated_at": "2026-10-01T19:03:20.316633+00:00",
+  "slips": [
+    {
+      "source_file": "20260903_214006.jpg",
+      "store": "Woolworths",
+      "location": "Palmyra Road, Rondebosch",
+      "date": "2026-09-03",
+      "total": 365.95,
+      "discounts": 0,
+      "items": [
+        {
+          "description": "Low fat milk 2L",
+          "price": 38.99,
+          "category": "Dairy & Eggs"
+        },
+        {
+          "description": "Clemengold tray",
+          "price": 86.99,
+          "category": "Produce"
+        },
+        {
+          "description": "HS muesli rusks 800g",
+          "price": 119.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Rosemary crackers 250g",
+          "price": 59.99,
+          "category": "Snacks & Treats"
+        },
+        {
+          "description": "Dry roasted salted pistachios 75g",
+          "price": 59.99,
+          "category": "Snacks & Treats"
+        }
+      ],
+      "month": "2026-09"
+    },
+    {
+      "source_file": "20260904_131138.jpg",
+      "store": "Dis-Chem",
+      "location": "Claremont",
+      "date": "2026-09-04",
+      "total": 148.48,
+      "discounts": 24.47,
+      "items": [
+        {
+          "description": "HC pumpkin seed 200g",
+          "price": 104.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Bioplus chew berry 12s x2 (33.98 less 6.79, 2.72, 1.36, 1.36)",
+          "price": 21.75,
+          "category": "Health & Beauty"
+        },
+        {
+          "description": "Bioplus chew orange 12s x2 (33.98 less 6.80, 2.72, 1.36, 1.36)",
+          "price": 21.74,
+          "category": "Health & Beauty"
+        }
+      ],
+      "month": "2026-09"
+    },
+    {
+      "source_file": "20260906_212748.jpg",
+      "store": "Woolworths",
+      "location": "Palmyra Road, Rondebosch",
+      "date": "2026-09-06",
+      "total": 806.9,
+      "discounts": 0,
+      "items": [
+        {
+          "description": "Still spring water 500ml",
+          "price": 13.99,
+          "category": "Beverages"
+        },
+        {
+          "description": "Beef steak pie",
+          "price": 119.99,
+          "category": "Meat & Deli"
+        },
+        {
+          "description": "Beech smoked ham 250g",
+          "price": 68.99,
+          "category": "Meat & Deli"
+        },
+        {
+          "description": "Diced butternut 500g",
+          "price": 29.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Marrows 800g",
+          "price": 54.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Large bananas",
+          "price": 36.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Bon Chretien pears 250g",
+          "price": 64.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Rosa tomatoes 200g",
+          "price": 28.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Golden Delicious apples 1.5kg",
+          "price": 36.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Broccoli",
+          "price": 29.05,
+          "category": "Produce"
+        },
+        {
+          "description": "4-month white cheddar 400g",
+          "price": 99.99,
+          "category": "Dairy & Eggs"
+        },
+        {
+          "description": "3 colour peppers",
+          "price": 46.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Patty pans 300g",
+          "price": 36.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Sliced portabellini 250g",
+          "price": 38.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Medium carrots 500g",
+          "price": 11.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Clemengold tray",
+          "price": 86.99,
+          "category": "Produce"
+        }
+      ],
+      "month": "2026-09"
+    },
+    {
+      "source_file": "20260909_131919.jpg",
+      "store": "Pick n Pay",
+      "location": "Claremont",
+      "date": "2026-09-09",
+      "total": 262.96,
+      "discounts": 56,
+      "items": [
+        {
+          "description": "Ecofresh low fat milk x2 (71.98 less 6.00)",
+          "price": 65.98,
+          "category": "Dairy & Eggs"
+        },
+        {
+          "description": "Jungle oats 1kg",
+          "price": 46.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Cornet milk chocolate 200g (199.99 less 50.00)",
+          "price": 149.99,
+          "category": "Snacks & Treats"
+        }
+      ],
+      "month": "2026-09"
+    },
+    {
+      "source_file": "20260926_190047.jpg",
+      "store": "Pick n Pay",
+      "location": "Claremont",
+      "date": "2026-09-10",
+      "total": 1195.83,
+      "discounts": 6.62,
+      "items": [
+        {
+          "description": "Skinless breast fillets pack",
+          "price": 60.31,
+          "category": "Meat & Deli"
+        },
+        {
+          "description": "Skinless breast fillets pack",
+          "price": 53.75,
+          "category": "Meat & Deli"
+        },
+        {
+          "description": "Ecofresh low fat milk x2 at 35.99",
+          "price": 71.98,
+          "category": "Dairy & Eggs"
+        },
+        {
+          "description": "Eco UHT low fat milk x2 at 18.99",
+          "price": 37.98,
+          "category": "Dairy & Eggs"
+        },
+        {
+          "description": "Jungle oats 1kg",
+          "price": 46.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Tagless teabags",
+          "price": 144.99,
+          "category": "Tea & coffee"
+        },
+        {
+          "description": "Tuffy Pro Clear bags 45s",
+          "price": 99.99,
+          "category": "Cleaning products"
+        },
+        {
+          "description": "Jacobs Kronung instant coffee 200g",
+          "price": 219.99,
+          "category": "Tea & coffee"
+        },
+        {
+          "description": "Refuse bags perforated roll 20s",
+          "price": 42.99,
+          "category": "Cleaning products"
+        },
+        {
+          "description": "Jacobs Kronung instant coffee",
+          "price": 69.99,
+          "category": "Tea & coffee"
+        },
+        {
+          "description": "Tastic rice 2kg",
+          "price": 42.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Dream Whispers 60g x2 at 28.99",
+          "price": 57.98,
+          "category": "Snacks & Treats"
+        },
+        {
+          "description": "Mister Sweet cashew coconut brittle",
+          "price": 23.99,
+          "category": "Snacks & Treats"
+        },
+        {
+          "description": "Wilsons XXX mints 26g",
+          "price": 7.99,
+          "category": "Snacks & Treats"
+        },
+        {
+          "description": "Chocolate raisin Tumbles 60g x2 at 26.99",
+          "price": 53.98,
+          "category": "Snacks & Treats"
+        },
+        {
+          "description": "Ginger beer concentrate x3 at 18.99",
+          "price": 56.97,
+          "category": "Beverages"
+        },
+        {
+          "description": "Marmite spread 125g x2 at 42.99",
+          "price": 85.98,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Albany brown bread",
+          "price": 16.99,
+          "category": "Pantry & Dry Goods"
+        }
+      ],
+      "month": "2026-09"
+    },
+    {
+      "source_file": "20260911_202808.jpg",
+      "store": "Woolworths",
+      "location": "Palmyra Road, Rondebosch",
+      "date": "2026-09-11",
+      "total": 1017.29,
+      "discounts": 15.96,
+      "items": [
+        {
+          "description": "Organic bananas bag",
+          "price": 37.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Dry savoury mince cook-in sauce",
+          "price": 18.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Dry savoury mince cook-in sauce",
+          "price": 18.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Dry Bolognaise cook-in sauce",
+          "price": 18.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Dry Bolognaise cook-in sauce",
+          "price": 18.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Shredded tuna vegetable oil (28.99 less 3.99)",
+          "price": 25,
+          "category": "Meat & Deli"
+        },
+        {
+          "description": "Shredded tuna vegetable oil (28.99 less 3.99)",
+          "price": 25,
+          "category": "Meat & Deli"
+        },
+        {
+          "description": "Shredded tuna vegetable oil (28.99 less 3.99)",
+          "price": 25,
+          "category": "Meat & Deli"
+        },
+        {
+          "description": "Shredded tuna vegetable oil (28.99 less 3.99)",
+          "price": 25,
+          "category": "Meat & Deli"
+        },
+        {
+          "description": "Sultanas 500g",
+          "price": 61.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Raisins 500g",
+          "price": 61.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Sultanas 500g",
+          "price": 61.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Rosa tomatoes 200g",
+          "price": 28.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Beef dhania sausage",
+          "price": 87.54,
+          "category": "Meat & Deli"
+        },
+        {
+          "description": "Free range chicken schnitzel",
+          "price": 163.58,
+          "category": "Meat & Deli"
+        },
+        {
+          "description": "Venison droewors 150g",
+          "price": 119.99,
+          "category": "Meat & Deli"
+        },
+        {
+          "description": "Mediterranean cucumber",
+          "price": 12.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Organic bananas bag",
+          "price": 37.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Golden Delicious apples 1.5kg",
+          "price": 36.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Butterfly popcorn",
+          "price": 31.99,
+          "category": "Snacks & Treats"
+        },
+        {
+          "description": "Clemengold tray",
+          "price": 86.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Loose grapefruit 0.344kg at 29.99/kg",
+          "price": 10.32,
+          "category": "Produce"
+        }
+      ],
+      "month": "2026-09"
+    },
+    {
+      "source_file": "20260911_202849.jpg",
+      "store": "Palmyra Deli",
+      "location": "Claremont",
+      "date": "2026-09-11",
+      "total": 49.99,
+      "discounts": 0,
+      "items": [
+        {
+          "description": "Clover feta plain 200g",
+          "price": 49.99,
+          "category": "Dairy & Eggs"
+        }
+      ],
+      "month": "2026-09"
+    },
+    {
+      "source_file": "20260915_204633.jpg",
+      "store": "Woolworths",
+      "location": "Palmyra Road, Rondebosch",
+      "date": "2026-09-15",
+      "total": 1329.69,
+      "discounts": 38.95,
+      "items": [
+        {
+          "description": "Sweet potatoes 1kg",
+          "price": 29.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Medium carrots 500g",
+          "price": 11.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Patty pans 300g",
+          "price": 36.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Red onions 1kg",
+          "price": 62.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Sliced portabellini 250g (38.99 less 8.99)",
+          "price": 30,
+          "category": "Produce"
+        },
+        {
+          "description": "Sliced portabellini 250g (38.99 less 8.99)",
+          "price": 30,
+          "category": "Produce"
+        },
+        {
+          "description": "Julienne stir fry 700g (56.99 less 8.19)",
+          "price": 48.8,
+          "category": "Produce"
+        },
+        {
+          "description": "Chrysanthemums",
+          "price": 89.99,
+          "category": "Gardening"
+        },
+        {
+          "description": "Clemengold tray",
+          "price": 86.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Woolworths house shiraz",
+          "price": 69.99,
+          "category": "Alcohol"
+        },
+        {
+          "description": "Italian diced tomato",
+          "price": 28.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Italian diced tomato",
+          "price": 28.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Italian diced tomato",
+          "price": 28.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Italian diced tomato",
+          "price": 28.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Everyday spaghetti 500g",
+          "price": 22.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Hard cheese",
+          "price": 103.5,
+          "category": "Dairy & Eggs"
+        },
+        {
+          "description": "Sweet sour sauce 250g (44.99 less 6.46)",
+          "price": 38.53,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Bay leaves 20g",
+          "price": 14.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Egg noodles 500g (43.99 less 6.32)",
+          "price": 37.67,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Guava 6/9 punnet",
+          "price": 57.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Long life low fat milk",
+          "price": 12.99,
+          "category": "Dairy & Eggs"
+        },
+        {
+          "description": "Long life low fat milk",
+          "price": 12.99,
+          "category": "Dairy & Eggs"
+        },
+        {
+          "description": "Long life low fat milk",
+          "price": 12.99,
+          "category": "Dairy & Eggs"
+        },
+        {
+          "description": "Long life low fat milk",
+          "price": 12.99,
+          "category": "Dairy & Eggs"
+        },
+        {
+          "description": "Wholewheat bread",
+          "price": 27.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Baby marrows 350g",
+          "price": 36.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Beech smoked gammon 250g",
+          "price": 89.99,
+          "category": "Meat & Deli"
+        },
+        {
+          "description": "Free range beef boerewors",
+          "price": 83.83,
+          "category": "Meat & Deli"
+        },
+        {
+          "description": "Chicken schnitzel",
+          "price": 138.77,
+          "category": "Meat & Deli"
+        },
+        {
+          "description": "Loose garlic 0.072kg at 149.99/kg",
+          "price": 10.8,
+          "category": "Produce"
+        }
+      ],
+      "month": "2026-09"
+    },
+    {
+      "source_file": "20260916_133312.jpg",
+      "store": "Dis-Chem",
+      "location": "Claremont",
+      "date": "2026-09-16",
+      "total": 218.38,
+      "discounts": 111.58,
+      "items": [
+        {
+          "description": "Transact LAT patch 5, user-approved estimate from visible net line",
+          "price": 131.19,
+          "category": "Health & Beauty"
+        },
+        {
+          "description": "Domestos lemon bleach 750ml, user-approved estimate from visible net line",
+          "price": 48.0,
+          "category": "Cleaning products"
+        },
+        {
+          "description": "Sta-Soft spring refill 500ml, user-approved estimate from visible net line",
+          "price": 39.19,
+          "category": "Cleaning products"
+        }
+      ],
+      "month": "2026-09",
+      "estimate_status": "user-approved estimate",
+      "estimate_note": "User instructed on 1 October 2026 to ignore obscured returned goods and use the sum of the three visible net lines. Printed total is hidden and cannot be independently verified."
+    },
+    {
+      "source_file": "20260917_125855.jpg",
+      "store": "Dis-Chem",
+      "location": "Claremont",
+      "date": "2026-09-17",
+      "total": 122.33,
+      "discounts": 57.57,
+      "items": [
+        {
+          "description": "Bioplus chew berry 12s x5 (89.95 less 17.98, 7.19, 3.60)",
+          "price": 61.18,
+          "category": "Health & Beauty"
+        },
+        {
+          "description": "Bioplus chew lemon 12s x3 (53.97 less 10.80, 4.32, 2.16)",
+          "price": 36.69,
+          "category": "Health & Beauty"
+        },
+        {
+          "description": "Bioplus chew orange 12s x2 (35.98 less 7.20, 2.88, 1.44)",
+          "price": 24.46,
+          "category": "Health & Beauty"
+        }
+      ],
+      "month": "2026-09"
+    },
+    {
+      "source_file": "20260920_185116.jpg",
+      "store": "Woolworths",
+      "location": "Palmyra Road, Rondebosch",
+      "date": "2026-09-18",
+      "total": 365.95,
+      "discounts": 0,
+      "items": [
+        {
+          "description": "Washed baby spinach",
+          "price": 27.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Quiche Lorraine",
+          "price": 174.99,
+          "category": "Meat & Deli"
+        },
+        {
+          "description": "HS muesli rusks 450g",
+          "price": 82.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Zamli dates",
+          "price": 44.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Firelighters 12 pieces",
+          "price": 34.99,
+          "category": "Hardware store"
+        }
+      ],
+      "month": "2026-09"
+    },
+    {
+      "source_file": "20260920_185156.jpg",
+      "store": "Woolworths",
+      "location": "Palmyra Road, Rondebosch",
+      "date": "2026-09-20",
+      "total": 520.93,
+      "discounts": 0,
+      "items": [
+        {
+          "description": "Golden Delicious apples 1.5kg",
+          "price": 36.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Bulk strawberries",
+          "price": 84.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Kuhne sweet sour gherkins 970g",
+          "price": 137.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Kuhne garlic gherkins 970g",
+          "price": 144.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Rosa tomatoes 200g",
+          "price": 28.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Large bananas",
+          "price": 36.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Avocado 2-pack",
+          "price": 49.99,
+          "category": "Produce"
+        }
+      ],
+      "month": "2026-09"
+    },
+    {
+      "source_file": "20260920_185209.jpg",
+      "store": "Woolworths",
+      "location": "Palmyra Road, Rondebosch",
+      "date": "2026-09-20",
+      "total": 238.95,
+      "discounts": 0,
+      "items": [
+        {
+          "description": "Whipping cream bottle 250ml",
+          "price": 36.99,
+          "category": "Dairy & Eggs"
+        },
+        {
+          "description": "Cadbury rum raisin 80g",
+          "price": 25.99,
+          "category": "Snacks & Treats"
+        },
+        {
+          "description": "Cadbury mint crisp 80g",
+          "price": 25.99,
+          "category": "Snacks & Treats"
+        },
+        {
+          "description": "Extra creamy milk chocolate 100g",
+          "price": 99.99,
+          "category": "Snacks & Treats"
+        },
+        {
+          "description": "Cadbury Top Deck 150g",
+          "price": 49.99,
+          "category": "Snacks & Treats"
+        }
+      ],
+      "month": "2026-09"
+    },
+    {
+      "source_file": "20260926_190205.jpg",
+      "store": "Pick n Pay",
+      "location": "Claremont",
+      "date": "2026-09-20",
+      "total": 605.2,
+      "discounts": 0,
+      "items": [
+        {
+          "description": "Ecofresh low fat milk",
+          "price": 35.99,
+          "category": "Dairy & Eggs"
+        },
+        {
+          "description": "Jungle oats 1kg",
+          "price": 46.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Chicken noodles 68g",
+          "price": 39.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Marine sealant 90ml",
+          "price": 79.99,
+          "category": "Hardware store"
+        },
+        {
+          "description": "Dairy Milk chocolate 80g",
+          "price": 24.99,
+          "category": "Snacks & Treats"
+        },
+        {
+          "description": "Beef stir fry",
+          "price": 44.54,
+          "category": "Meat & Deli"
+        },
+        {
+          "description": "Popcorn kernels 1kg",
+          "price": 37.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Mustard sauce 500ml",
+          "price": 29.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Mister Sweet cashew coconut brittle",
+          "price": 23.99,
+          "category": "Snacks & Treats"
+        },
+        {
+          "description": "Pure protein vanilla bar",
+          "price": 41.99,
+          "category": "Snacks & Treats"
+        },
+        {
+          "description": "Chocolate raisin Tumbles 60g",
+          "price": 26.99,
+          "category": "Snacks & Treats"
+        },
+        {
+          "description": "Cadbury shortcake Tumbles 60g",
+          "price": 26.99,
+          "category": "Snacks & Treats"
+        },
+        {
+          "description": "Dream Whispers 60g",
+          "price": 28.99,
+          "category": "Snacks & Treats"
+        },
+        {
+          "description": "Light medium fat spread 500g",
+          "price": 44.99,
+          "category": "Dairy & Eggs"
+        },
+        {
+          "description": "Mrs Balls original chutney 860g",
+          "price": 67.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Carrier bags x2 at 1.40",
+          "price": 2.8,
+          "category": "Household"
+        }
+      ],
+      "month": "2026-09"
+    },
+    {
+      "source_file": "20260930_160543.jpg",
+      "store": "Woolworths",
+      "location": "Palmyra Road, Rondebosch",
+      "date": "2026-09-22",
+      "total": 436.94,
+      "discounts": 0,
+      "items": [
+        {
+          "description": "Low fat milk 2L",
+          "price": 38.99,
+          "category": "Dairy & Eggs"
+        },
+        {
+          "description": "Earl Grey tea 40s",
+          "price": 55.99,
+          "category": "Tea & coffee"
+        },
+        {
+          "description": "4-month white cheddar 400g",
+          "price": 99.99,
+          "category": "Dairy & Eggs"
+        },
+        {
+          "description": "Belgian chocolate ice cream 1L",
+          "price": 134.99,
+          "category": "Snacks & Treats"
+        },
+        {
+          "description": "Brown sandwich bread",
+          "price": 19.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Clemengold tray",
+          "price": 86.99,
+          "category": "Produce"
+        }
+      ],
+      "month": "2026-09"
+    },
+    {
+      "source_file": "20260926_190146.jpg",
+      "store": "Pick n Pay",
+      "location": "Claremont",
+      "date": "2026-09-24",
+      "total": 796.56,
+      "discounts": 11.2,
+      "items": [
+        {
+          "description": "Roll towel 2-ply 4-pack",
+          "price": 49.99,
+          "category": "Cleaning products"
+        },
+        {
+          "description": "Ecofresh low fat milk x2 (71.98 less 6.00)",
+          "price": 65.98,
+          "category": "Dairy & Eggs"
+        },
+        {
+          "description": "Beef goulash",
+          "price": 98.93,
+          "category": "Meat & Deli"
+        },
+        {
+          "description": "Skip liquid auto detergent",
+          "price": 156.99,
+          "category": "Cleaning products"
+        },
+        {
+          "description": "Strawberry jam 450g",
+          "price": 49.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Banana chips 100g",
+          "price": 27.99,
+          "category": "Snacks & Treats"
+        },
+        {
+          "description": "Gourmet peas carrots corn 750g",
+          "price": 65.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Tropical Surge gummies 65g x2 (51.98 less 5.20)",
+          "price": 46.78,
+          "category": "Snacks & Treats"
+        },
+        {
+          "description": "Steak and kidney pie",
+          "price": 29.99,
+          "category": "Meat & Deli"
+        },
+        {
+          "description": "Lindor pistachio stick 38g",
+          "price": 33.99,
+          "category": "Snacks & Treats"
+        },
+        {
+          "description": "Odour control soap 175g",
+          "price": 19.99,
+          "category": "Bathroom and toilet"
+        },
+        {
+          "description": "Pimple control soap 175g",
+          "price": 19.99,
+          "category": "Bathroom and toilet"
+        },
+        {
+          "description": "Deep clean tissue oil soap 175g",
+          "price": 19.99,
+          "category": "Bathroom and toilet"
+        },
+        {
+          "description": "Protex menthol soap 175g",
+          "price": 19.99,
+          "category": "Bathroom and toilet"
+        },
+        {
+          "description": "Protex fresh soap 175g",
+          "price": 19.99,
+          "category": "Bathroom and toilet"
+        },
+        {
+          "description": "Mosquito mats 30s",
+          "price": 69.99,
+          "category": "Household"
+        }
+      ],
+      "month": "2026-09"
+    },
+    {
+      "source_file": "20260926_190059.jpg",
+      "store": "Pick n Pay",
+      "location": "Claremont",
+      "date": "2026-09-25",
+      "total": 139.25,
+      "discounts": 0,
+      "items": [
+        {
+          "description": "Carrier bag 24L",
+          "price": 1.4,
+          "category": "Household"
+        },
+        {
+          "description": "White sliced mushrooms 250g",
+          "price": 36.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Today puff pastry 400g",
+          "price": 32.88,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Extra large eggs",
+          "price": 24.99,
+          "category": "Dairy & Eggs"
+        },
+        {
+          "description": "Shoulder bacon 200g",
+          "price": 42.99,
+          "category": "Meat & Deli"
+        }
+      ],
+      "month": "2026-09"
+    },
+    {
+      "source_file": "20260926_190108.jpg",
+      "store": "Woodlands Mica Hardware",
+      "location": "Claremont",
+      "date": "2026-09-25",
+      "total": 324.98,
+      "discounts": 0,
+      "items": [
+        {
+          "description": "Microjet pegs 450mm x20, VAT inclusive",
+          "price": 119.99,
+          "category": "Hardware store"
+        },
+        {
+          "description": "Spring toggle hooks 5x75 x2, VAT inclusive",
+          "price": 27.99,
+          "category": "Hardware store"
+        },
+        {
+          "description": "LED globes 15W ES opal x3, VAT inclusive",
+          "price": 177,
+          "category": "Hardware store"
+        }
+      ],
+      "month": "2026-09"
+    },
+    {
+      "source_file": "20260926_183720.jpg",
+      "store": "Woolworths",
+      "location": "Palmyra Road, Rondebosch",
+      "date": "2026-09-26",
+      "total": 136.94,
+      "discounts": 0,
+      "items": [
+        {
+          "description": "Cadbury Top Deck 80g",
+          "price": 25.99,
+          "category": "Snacks & Treats"
+        },
+        {
+          "description": "Cadbury Top Deck 80g",
+          "price": 25.99,
+          "category": "Snacks & Treats"
+        },
+        {
+          "description": "Cashew cranberry raspberry bar 50g",
+          "price": 19.99,
+          "category": "Snacks & Treats"
+        },
+        {
+          "description": "Yoghurt cashew strawberry bar 50g",
+          "price": 19.99,
+          "category": "Snacks & Treats"
+        },
+        {
+          "description": "Yoghurt almond mango apricot bar 50g",
+          "price": 19.99,
+          "category": "Snacks & Treats"
+        },
+        {
+          "description": "Mixed berry fruit roll 80g",
+          "price": 24.99,
+          "category": "Snacks & Treats"
+        }
+      ],
+      "month": "2026-09"
+    },
+    {
+      "source_file": "20260926_183908.jpg",
+      "store": "Woolworths",
+      "location": "Palmyra Road, Rondebosch",
+      "date": "2026-09-26",
+      "total": 924.82,
+      "discounts": 59.04,
+      "items": [
+        {
+          "description": "Bon Chretien pears 250g",
+          "price": 64.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Bon Chretien pears 250g",
+          "price": 64.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Baby potatoes 700g (24.99 less 4.90)",
+          "price": 20.09,
+          "category": "Produce"
+        },
+        {
+          "description": "Sultanas 500g",
+          "price": 61.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Raisins 500g",
+          "price": 61.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "HS muesli rusks 800g",
+          "price": 119.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Sultanas 500g",
+          "price": 61.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Rosa tomatoes 200g (28.99 less 5.68)",
+          "price": 23.31,
+          "category": "Produce"
+        },
+        {
+          "description": "Baby corn 100g (31.99 less 6.78)",
+          "price": 25.21,
+          "category": "Produce"
+        },
+        {
+          "description": "Smoked gypsy ham 250g (89.99 less 10.00)",
+          "price": 79.99,
+          "category": "Meat & Deli"
+        },
+        {
+          "description": "Washed baby spinach (27.99 less 5.49)",
+          "price": 22.5,
+          "category": "Produce"
+        },
+        {
+          "description": "Broccoli (29.05 less 6.16)",
+          "price": 22.89,
+          "category": "Produce"
+        },
+        {
+          "description": "Mediterranean cucumber",
+          "price": 12.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Golden Delicious apples 1.5kg",
+          "price": 36.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Large bananas",
+          "price": 36.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Baby marrows 350g (36.99 less 7.84)",
+          "price": 29.15,
+          "category": "Produce"
+        },
+        {
+          "description": "Sliced portabellini 250g (38.99 less 8.27)",
+          "price": 30.72,
+          "category": "Produce"
+        },
+        {
+          "description": "Zamli dates",
+          "price": 44.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Yellow pepper (19.99 less 3.92)",
+          "price": 16.07,
+          "category": "Produce"
+        },
+        {
+          "description": "Clemengold tray",
+          "price": 86.99,
+          "category": "Produce"
+        }
+      ],
+      "month": "2026-09"
+    },
+    {
+      "source_file": "20260930_160836.jpg",
+      "store": "Woolworths",
+      "location": "Palmyra Road, Rondebosch",
+      "date": "2026-09-29",
+      "total": 101.97,
+      "discounts": 0,
+      "items": [
+        {
+          "description": "Cadbury Top Deck 150g",
+          "price": 49.99,
+          "category": "Snacks & Treats"
+        },
+        {
+          "description": "Cadbury rum raisin 80g",
+          "price": 25.99,
+          "category": "Snacks & Treats"
+        },
+        {
+          "description": "Cadbury mint crisp 80g",
+          "price": 25.99,
+          "category": "Snacks & Treats"
+        }
+      ],
+      "month": "2026-09"
+    },
+    {
+      "source_file": "20260930_160857.jpg",
+      "store": "Woolworths",
+      "location": "Palmyra Road, Rondebosch",
+      "date": "2026-09-29",
+      "total": 334.88,
+      "discounts": 19.99,
+      "items": [
+        {
+          "description": "Thick slice brown bread",
+          "price": 19.99,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Low cost fabric bag",
+          "price": 8.99,
+          "category": "Household"
+        },
+        {
+          "description": "Diced butternut 800g (49.99 less 8.19)",
+          "price": 41.8,
+          "category": "Produce"
+        },
+        {
+          "description": "Large bananas",
+          "price": 36.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Clemengold bag 1kg",
+          "price": 49.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Energade naartjie 500ml",
+          "price": 13.99,
+          "category": "Beverages"
+        },
+        {
+          "description": "Medium carrots 500g",
+          "price": 11.99,
+          "category": "Produce"
+        },
+        {
+          "description": "Radish 150g (22.99 less 3.77)",
+          "price": 19.22,
+          "category": "Produce"
+        },
+        {
+          "description": "Yellow pepper (19.99 less 3.28)",
+          "price": 16.71,
+          "category": "Produce"
+        },
+        {
+          "description": "Jungle dark bar 48g",
+          "price": 15.99,
+          "category": "Snacks & Treats"
+        },
+        {
+          "description": "Crunchita lettuce (28.99 less 4.75)",
+          "price": 24.24,
+          "category": "Produce"
+        },
+        {
+          "description": "Dry roasted salted pistachios 75g",
+          "price": 59.99,
+          "category": "Snacks & Treats"
+        },
+        {
+          "description": "Thyme 20g",
+          "price": 14.99,
+          "category": "Produce"
+        }
+      ],
+      "month": "2026-09"
+    },
+    {
+      "source_file": "20260930_160457.jpg",
+      "store": "Pick n Pay",
+      "location": "Claremont",
+      "date": "2026-09-30",
+      "total": 812.86,
+      "discounts": 126.49,
+      "items": [
+        {
+          "description": "Jungle oats 1kg x2 (2 x 46.99 less 20.00) (redemption allocation 8.57)",
+          "price": 65.41,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Lighthouse fluted white candles 6 (redemption allocation 4.63)",
+          "price": 35.36,
+          "category": "Household"
+        },
+        {
+          "description": "Ecofresh low fat milk x3 at 35.99 (redemption allocation 12.51)",
+          "price": 95.46,
+          "category": "Dairy & Eggs"
+        },
+        {
+          "description": "Blood orange juice 1L (redemption allocation 5.79)",
+          "price": 44.2,
+          "category": "Beverages"
+        },
+        {
+          "description": "I&J light and crispy fish 500g+100g (redemption allocation 15.87)",
+          "price": 121.12,
+          "category": "Meat & Deli"
+        },
+        {
+          "description": "L&CC chunky hake 500g+100g (redemption allocation 15.87)",
+          "price": 121.12,
+          "category": "Meat & Deli"
+        },
+        {
+          "description": "Skinless breast fillets (redemption allocation 11.56)",
+          "price": 88.27,
+          "category": "Meat & Deli"
+        },
+        {
+          "description": "Smooth peanut butter (redemption allocation 10.65)",
+          "price": 81.34,
+          "category": "Pantry & Dry Goods"
+        },
+        {
+          "description": "Traditional feta cheese (redemption allocation 4.63)",
+          "price": 35.36,
+          "category": "Dairy & Eggs"
+        },
+        {
+          "description": "White cheddar pack (redemption allocation 4.13)",
+          "price": 31.57,
+          "category": "Dairy & Eggs"
+        },
+        {
+          "description": "White cheddar pack (redemption allocation 3.65)",
+          "price": 27.85,
+          "category": "Dairy & Eggs"
+        },
+        {
+          "description": "Free range jumbo eggs x2 at 28.99 (redemption allocation 6.72)",
+          "price": 51.26,
+          "category": "Dairy & Eggs"
+        },
+        {
+          "description": "Hotdog rolls (redemption allocation 1.91)",
+          "price": 14.54,
+          "category": "Pantry & Dry Goods"
+        }
+      ],
+      "month": "2026-09"
+    }
+  ],
+  "import_status": "complete_with_estimates",
+  "import_note": "September contains 22 verified receipts and one user-approved Dis-Chem estimate of R218.38. The Dis-Chem total was physically obscured; the user said the hidden goods were returned and instructed us to sum the visible net lines. The estimate is not a verified receipt total."
+}

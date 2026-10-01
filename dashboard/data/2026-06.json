@@ -10,10 +10,10 @@
       "total": 515.8,
       "discounts": 120.08,
       "items": [
-        {"description": "Twinings English Breakfast tea", "price": 197.56, "category": "Beverages"},
-        {"description": "Twinings English Breakfast tea", "price": 197.56, "category": "Beverages"},
-        {"description": "Domestos 750ml Lemon Bleach", "price": 31.44, "category": "Household"},
-        {"description": "Skip Auto Liquid Detergent", "price": 89.24, "category": "Household"}
+        {"description": "Twinings English Breakfast tea", "price": 197.56, "category": "Tea & coffee"},
+        {"description": "Twinings English Breakfast tea", "price": 197.56, "category": "Tea & coffee"},
+        {"description": "Domestos 750ml Lemon Bleach", "price": 31.44, "category": "Cleaning products"},
+        {"description": "Skip Auto Liquid Detergent", "price": 89.24, "category": "Cleaning products"}
       ],
       "month": "2026-06"
     },
@@ -60,7 +60,7 @@
         {"description": "Avocado 2 Punnet", "price": 48.99, "category": "Produce"},
         {"description": "Chicken Schnitzel", "price": 109.75, "category": "Meat & Deli"},
         {"description": "Bananas Large", "price": 33.99, "category": "Produce"},
-        {"description": "Earl Grey 40s", "price": 54.99, "category": "Beverages"},
+        {"description": "Earl Grey 40s", "price": 54.99, "category": "Tea & coffee"},
         {"description": "Sliced Portabellini", "price": 38.99, "category": "Produce"},
         {"description": "Rosa Tomatoes 200g", "price": 32.99, "category": "Produce"},
         {"description": "Spinach Rocket Watercress 100g", "price": 27.99, "category": "Produce"},
@@ -93,8 +93,8 @@
       "total": 79.98,
       "discounts": 0.0,
       "items": [
-        {"description": "PnP Ultra Nylon Scourers", "price": 44.99, "category": "Household"},
-        {"description": "Dishwashing Liquid Reg 750ml", "price": 34.99, "category": "Household"}
+        {"description": "PnP Ultra Nylon Scourers", "price": 44.99, "category": "Cleaning products"},
+        {"description": "Dishwashing Liquid Reg 750ml", "price": 34.99, "category": "Cleaning products"}
       ],
       "month": "2026-06"
     },
@@ -109,7 +109,7 @@
         {"description": "Fleet Enema 133ml", "price": 51.99, "category": "Health & Beauty"},
         {"description": "Absolut Stress Forte 60", "price": 432.99, "category": "Health & Beauty"},
         {"description": "Panado Tabs 24", "price": 64.58, "category": "Health & Beauty"},
-        {"description": "Sta-Soft RF 500ml Spring x3", "price": 84.15, "category": "Household"},
+        {"description": "Sta-Soft RF 500ml Spring x3", "price": 84.15, "category": "Cleaning products"},
         {"description": "Doom Mosquito Mats 4", "price": 61.99, "category": "Household"}
       ],
       "month": "2026-06"
@@ -232,12 +232,12 @@
         {"description": "Trans System Grapes 650g", "price": 229.99, "category": "Produce"},
         {"description": "Lip Balm Original x2", "price": 85.98, "category": "Health & Beauty"},
         {"description": "Blue Crane Egg Noodles 300g", "price": 29.99, "category": "Pantry & Dry Goods"},
-        {"description": "Jacobs Kronung Instant Coffee 47g", "price": 76.99, "category": "Beverages"},
+        {"description": "Jacobs Kronung Instant Coffee 47g", "price": 76.99, "category": "Tea & coffee"},
         {"description": "Mild Dill Gherkins 780g", "price": 54.99, "category": "Pantry & Dry Goods"},
         {"description": "No Name Popcorn", "price": 19.99, "category": "Snacks & Treats"},
         {"description": "Streaky Bacon 200g", "price": 61.99, "category": "Meat & Deli"},
         {"description": "PnP Chicken Breasts 4 Pack", "price": 51.06, "category": "Meat & Deli"},
-        {"description": "Organic Instant Coffee Latin America 200g", "price": 154.99, "category": "Beverages"},
+        {"description": "Organic Instant Coffee Latin America 200g", "price": 154.99, "category": "Tea & coffee"},
         {"description": "Traditional Feta Herbs", "price": 44.99, "category": "Dairy & Eggs"},
         {"description": "White Cheddar", "price": 45.00, "category": "Dairy & Eggs"},
         {"description": "Jumbo Eggs 6", "price": 24.99, "category": "Dairy & Eggs"},

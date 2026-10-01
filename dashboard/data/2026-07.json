@@ -13,7 +13,7 @@
         {"description": "Loose Pineapple", "price": 26.99, "category": "Produce"},
         {"description": "Avocado 2 Punnet", "price": 48.99, "category": "Produce"},
         {"description": "Organic Banana Bag", "price": 34.99, "category": "Produce"},
-        {"description": "Earl Grey Tea 40s", "price": 55.99, "category": "Beverages"},
+        {"description": "Earl Grey Tea 40s", "price": 55.99, "category": "Tea & coffee"},
         {"description": "Haloumi Bell Pepper", "price": 103.40, "category": "Dairy & Eggs"},
         {"description": "Diced Pumpkin 500g", "price": 32.99, "category": "Produce"},
         {"description": "Clemengold Tray", "price": 76.99, "category": "Produce"}
@@ -28,7 +28,7 @@
       "total": 38.99,
       "discounts": 0.00,
       "items": [
-        {"description": "Safeguard Foam Hand Wash", "price": 38.99, "category": "Health & Beauty"}
+        {"description": "Safeguard Foam Hand Wash", "price": 38.99, "category": "Bathroom and toilet"}
       ],
       "month": "2026-07"
     },
@@ -71,8 +71,8 @@
       "total": 446.20,
       "discounts": 0.00,
       "items": [
-        {"description": "Lucco LED A70 15W Non-Dimmable E27 x5", "price": 445.00, "category": "Household"},
-        {"description": "Carrier Bag", "price": 1.20, "category": "Household"}
+        {"description": "Lucco LED A70 15W Non-Dimmable E27 x5", "price": 445.00, "category": "Hardware store"},
+        {"description": "Carrier Bag", "price": 1.20, "category": "Hardware store"}
       ],
       "month": "2026-07"
     },
@@ -128,13 +128,13 @@
         {"description": "Ecofresh Low Fat Milk", "price": 35.99, "category": "Dairy & Eggs"},
         {"description": "Orange Juice 1L", "price": 39.99, "category": "Beverages"},
         {"description": "Long Life Fat Free Milk x2", "price": 37.98, "category": "Dairy & Eggs"},
-        {"description": "Refuse Bags on Roll Clear", "price": 78.99, "category": "Household"},
+        {"description": "Refuse Bags on Roll Clear", "price": 78.99, "category": "Cleaning products"},
         {"description": "Tomato & Onion Mix 410g x2", "price": 47.98, "category": "Pantry & Dry Goods"},
         {"description": "Beans in Tomato 410g x4", "price": 67.96, "category": "Pantry & Dry Goods"},
         {"description": "Real Mayonnaise 400g", "price": 59.99, "category": "Pantry & Dry Goods"},
         {"description": "Light Medium Fat Spread 500g", "price": 44.99, "category": "Dairy & Eggs"},
         {"description": "Basil Pesto 125g", "price": 55.99, "category": "Pantry & Dry Goods"},
-        {"description": "Staples 5000s", "price": 77.99, "category": "Household"},
+        {"description": "Staples 5000s", "price": 77.99, "category": "Hardware store"},
         {"description": "Sundried Tomato Pesto", "price": 56.43, "category": "Pantry & Dry Goods"},
         {"description": "Mushroom Pesto 125g", "price": 55.99, "category": "Pantry & Dry Goods"},
         {"description": "Tomato Paste Original 50g x4", "price": 35.96, "category": "Pantry & Dry Goods"},
@@ -213,10 +213,10 @@
       "items": [
         {"description": "Ecofresh Low Fat Milk x2", "price": 71.98, "category": "Dairy & Eggs"},
         {"description": "Orange Juice 1L", "price": 39.99, "category": "Beverages"},
-        {"description": "Jacobs Kronung Instant Coffee 200g", "price": 209.99, "category": "Beverages"},
-        {"description": "Douwe Egberts Instant Coffee", "price": 175.00, "category": "Beverages"},
+        {"description": "Jacobs Kronung Instant Coffee 200g", "price": 209.99, "category": "Tea & coffee"},
+        {"description": "Douwe Egberts Instant Coffee", "price": 175.00, "category": "Tea & coffee"},
         {"description": "Jungle Oats 1kg", "price": 56.99, "category": "Pantry & Dry Goods"},
-        {"description": "Jacobs Kronung Instant Coffee 47g", "price": 76.99, "category": "Beverages"},
+        {"description": "Jacobs Kronung Instant Coffee 47g", "price": 76.99, "category": "Tea & coffee"},
         {"description": "Brown Premium Bread 700g", "price": 17.99, "category": "Pantry & Dry Goods"},
         {"description": "Free Range Eggs Large 18", "price": 69.99, "category": "Dairy & Eggs"},
         {"description": "Skinless Chicken Fillet Breast", "price": 53.37, "category": "Meat & Deli"},
@@ -225,8 +225,8 @@
         {"description": "PnP Traditional Feta Cheese", "price": 32.99, "category": "Dairy & Eggs"},
         {"description": "Diced Bacon 200g", "price": 47.99, "category": "Meat & Deli"},
         {"description": "White Gouda Slices", "price": 36.00, "category": "Dairy & Eggs"},
-        {"description": "Nat Nurture Hand Wash 500ml", "price": 69.99, "category": "Health & Beauty"},
-        {"description": "Ginger Hand Wash 500ml", "price": 69.99, "category": "Health & Beauty"},
+        {"description": "Nat Nurture Hand Wash 500ml", "price": 69.99, "category": "Bathroom and toilet"},
+        {"description": "Ginger Hand Wash 500ml", "price": 69.99, "category": "Bathroom and toilet"},
         {"description": "PnP Sliced Portabellini 250g", "price": 36.99, "category": "Produce"},
         {"description": "Lindor Salted Caramel Stick 38g", "price": 33.99, "category": "Snacks & Treats"},
         {"description": "Wilsons XXX Mints 26g", "price": 7.99, "category": "Snacks & Treats"},
@@ -296,13 +296,13 @@
         {"description": "Mrs H.S. Ball's Chutney Original 860g", "price": 67.99, "category": "Pantry & Dry Goods"},
         {"description": "Free Range Eggs Jumbo x2", "price": 57.98, "category": "Dairy & Eggs"},
         {"description": "Date Slices Biscuits 350g", "price": 57.99, "category": "Snacks & Treats"},
-        {"description": "Five Roses Teabags Tagless", "price": 79.99, "category": "Beverages"},
+        {"description": "Five Roses Teabags Tagless", "price": 79.99, "category": "Tea & coffee"},
         {"description": "Ecofresh Low Fat Milk", "price": 35.99, "category": "Dairy & Eggs"},
         {"description": "Orange Juice 1L", "price": 39.99, "category": "Beverages"},
         {"description": "Fusilli Pasta 500g", "price": 35.99, "category": "Pantry & Dry Goods"},
         {"description": "Tomato & Onion Mix x2", "price": 49.98, "category": "Pantry & Dry Goods"},
-        {"description": "Nat Nurture Hand Wash 500ml", "price": 62.99, "category": "Health & Beauty"},
-        {"description": "Ginger Hand Wash 500ml", "price": 62.99, "category": "Health & Beauty"}
+        {"description": "Nat Nurture Hand Wash 500ml", "price": 62.99, "category": "Bathroom and toilet"},
+        {"description": "Ginger Hand Wash 500ml", "price": 62.99, "category": "Bathroom and toilet"}
       ],
       "month": "2026-07"
     },
@@ -314,7 +314,7 @@
       "total": 1629.07,
       "discounts": 381.87,
       "items": [
-        {"description": "2 Ply Toilet Paper 18 Pack x4", "price": 400.00, "category": "Household"},
+        {"description": "2 Ply Toilet Paper 18 Pack x4", "price": 400.00, "category": "Bathroom and toilet"},
         {"description": "Guava Punnet", "price": 57.99, "category": "Produce"},
         {"description": "Tuna Shredded in Vegetable Oil x8", "price": 200.00, "category": "Meat & Deli"},
         {"description": "Nut and Seeds 450g", "price": 82.99, "category": "Pantry & Dry Goods"},
@@ -401,27 +401,27 @@
         {
           "description": "Plywood 4mm 600x1200 x2 (269.57 excl VAT)",
           "price": 310.0,
-          "category": "Household"
+          "category": "Hardware store"
         },
         {
           "description": "Brass butt hinge 38mm (50.44 excl VAT)",
           "price": 58.01,
-          "category": "Household"
+          "category": "Hardware store"
         },
         {
           "description": "Corner bracket 25x25mm (10.44 excl VAT)",
           "price": 12.01,
-          "category": "Household"
+          "category": "Hardware store"
         },
         {
           "description": "Corner bracket 25x25mm (10.44 excl VAT)",
           "price": 12.01,
-          "category": "Household"
+          "category": "Hardware store"
         },
         {
           "description": "Viva brush 38mm (26.96 excl VAT)",
           "price": 31.0,
-          "category": "Household"
+          "category": "Hardware store"
         }
       ],
       "month": "2026-07"
