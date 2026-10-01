@@ -89,8 +89,7 @@ html, body, [class*="css"] {
     border-right: 1px solid %(border)s;
 }
 [data-testid="stSidebar"] * { color: %(text)s !important; }
-[data-testid="stHeader"] { background: %(page)s; }
-[data-testid="stToolbar"] { color: %(text)s; }
+[data-testid="stHeader"] { display: none !important; }
 [data-testid="stPopoverButton"] {
     width: 100%%;
     min-height: 42px;
@@ -743,7 +742,13 @@ def main():
     df_i = df_i_all[mask_i]
 
     # ── Masthead ───────────────────────────────────────────────────────────────
-    month_label = ", ".join(sel_months) if sel_months else "All months"
+    available_months = df_s_all["month"].nunique()
+    if len(sel_months) == available_months:
+        month_label = "All months"
+    elif len(sel_months) == 1:
+        month_label = datetime.strptime(sel_months[0], "%Y-%m").strftime("%B %Y")
+    else:
+        month_label = f"{len(sel_months)} months selected"
     st.image(str(HEADER_IMAGE), use_container_width=True)
     st.markdown(
         f'<h1 class="sr-only">JM² Shopping Dashboard — {month_label}</h1>'
@@ -752,13 +757,6 @@ def main():
     )
 
     # ── KPI cards ─────────────────────────────────────────────────────────────
-    for selected_month in sel_months:
-        month_data = json.loads((DATA_DIR / f"{selected_month}.json").read_text(encoding="utf-8"))
-        if month_data.get("import_status") == "partial":
-            st.warning(f"{selected_month}: {month_data['import_note']}")
-        elif month_data.get("import_status") == "complete_with_estimates":
-            st.info(f"{selected_month}: {month_data['import_note']}")
-
     total_spend  = df_s["total"].sum()
     total_trips  = len(df_s)
     total_items  = len(df_i)
