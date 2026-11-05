@@ -422,8 +422,19 @@ def plotly_layout(**overrides):
 
 
 # ── Data loading ──────────────────────────────────────────────────────────────
+def _data_fingerprint():
+    """Hash of every data file's name, size and mtime, so the cache below
+    busts whenever a JSON file changes, even if Streamlit Cloud reuses the
+    running process instead of restarting it after a git push."""
+    parts = []
+    for jf in sorted(DATA_DIR.glob("*.json")):
+        st_info = jf.stat()
+        parts.append(f"{jf.name}:{st_info.st_size}:{st_info.st_mtime_ns}")
+    return "|".join(parts)
+
+
 @st.cache_data
-def load_all_data():
+def load_all_data(data_fingerprint):
     item_rows, slip_rows = [], []
     for jf in sorted(DATA_DIR.glob("*.json")):
         with open(jf) as f:
@@ -719,7 +730,7 @@ def main():
         st.error("No shopping data found.")
         st.stop()
 
-    df_s_all, df_i_all = load_all_data()
+    df_s_all, df_i_all = load_all_data(_data_fingerprint())
     if df_s_all.empty:
         st.error("No data found.")
         st.stop()
